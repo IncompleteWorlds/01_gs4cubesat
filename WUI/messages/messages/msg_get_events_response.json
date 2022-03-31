@@ -1,0 +1,23 @@
+{
+    "name":       "MsgGetEventsResponse",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "Response message to the SGP4 propagation",
+
+    "fields" : [
+        {"name": "header",              "type": "MsgHeader",    "doc": "Common messages header"},
+
+        {"name": "error_data",          "type": ["null", "MsgErrorData"],  "doc": "Error code, error message", "default" : null},
+
+        {"name": "mission_id",          "type": "string",      "doc": "Unique mission identifier"},
+        {"name": "satellite_id",        "type": "string",      "doc": "Unique satellite identifier"},
+
+        {"name": "ground_station_id",   "type": "int",        "doc": "Ground Station identifier" },
+        {"name": "antenna_id",          "type": "int",        "doc": "Antenna identifier within the station" },
+
+        {"name": "event_types",         "type": { "type" : "array", "items" : "com.incomplete.cubegs.common.avro.data_model.FdsEvent"},   
+                                                               "doc": "List of event types to be generated"}
+
+    ] 
+}
+

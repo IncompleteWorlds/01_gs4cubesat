@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.22.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-log4j12-1.7.22.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.rap.rwt_3.17.0.20210510-1356.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.rap.rwt.source_3.17.0.20210510-1356.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.utility"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/avro-1.11.0.jar"/>
+	<classpathentry kind="lib" path="libs/avro-1.11.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-annotations-2.12.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-2.12.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-databind-2.12.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-datatype-jdk8-2.12.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-datatype-jsr310-2.12.4.jar"/>
+	<classpathentry kind="lib" path="libs/jzmq.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

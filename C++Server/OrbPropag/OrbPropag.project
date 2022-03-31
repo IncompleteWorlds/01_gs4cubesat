@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="OrbPropag" Version="11000" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="resources">
+    <File Name="resources/log4cpp.properties"/>
+    <File Name="resources/input.json"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <VirtualDirectory Name="messages"/>
+    <File Name="include/orbpropag_ModuleManager.h"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="src/zmq_fortran_lib.cpp"/>
+    <VirtualDirectory Name="modules">
+      <File Name="src/modules/OrbPropag.f90"/>
+    </VirtualDirectory>
+    <File Name="src/orbpropag_main.cpp"/>
+    <File Name="src/orbpropag_ModuleManager.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-std=c++11;-Wall;-fexceptions;-Weffc++" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="include"/>
+        <IncludePath Value="include/messages"/>
+        <IncludePath Value="../Common/include"/>
+        <IncludePath Value="../Security_Access_Control/include"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib"/>
+        <LibraryPath Value="../Common/bin/Debug"/>
+        <LibraryPath Value="../Security_Access_Control/bin/Debug"/>
+        <Library Value="Common"/>
+        <Library Value="Security_Access_Control"/>
+        <Library Value="avrocpp"/>
+        <Library Value="zmq"/>
+        <Library Value="SQLiteCpp"/>
+        <Library Value="sqlite3"/>
+        <Library Value="pthread"/>
+        <Library Value="log4cpp"/>
+        <Library Value="c"/>
+        <Library Value="stdc++"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="./bin/Debug/$(ProjectName)" IntermediateDirectory="./obj/Debug" Command="./bin/Debug/$(ProjectName)" CommandArguments="resources/config.json" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(ProjectPath)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(WorkspacePath)/Common/bin/Debug:$(WorkspacePath)/Security_Access_Control/bin/Debug
+FC=gfortran
+FCFLAGS=
+FLFLAGS=
+LinkerName=$(FC)]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild>
+        <Command Enabled="no">#</Command>
+        <Command Enabled="no"># gfortran -c $(ProjectPath)/src/modules/OrbPropag.f90 -o $(IntermediateDirectory)/src_modules_OrbPropag.f90$(ObjectSuffix)</Command>
+        <Command Enabled="no"># touch $(IntermediateDirectory)/src_modules_OrbPropag.f90$(DependSuffix)</Command>
+        <Command Enabled="yes"/>
+      </PreBuild>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand>make clean</CleanCommand>
+        <BuildCommand>make </BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>$(ProjectPath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;-std=c++11;-Wall;-fexceptions;-Weffc++" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./obj/Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

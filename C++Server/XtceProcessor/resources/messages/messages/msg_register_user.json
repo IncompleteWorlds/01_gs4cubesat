@@ -1,0 +1,37 @@
+{
+    "name":       "MsgRegisterUserOld",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message register a new user of the CubeGS ",
+
+    "fields" : [
+
+        {"name": "firstName",     "type": "string",   "doc": "First name"},
+        {"name": "lastName",      "type": "string",   "doc": "Last name"},
+        {"name": "userName",      "type": "string",   "doc": "User name"},
+        {"name": "hashPassword",  "type": "string",   "doc": "Hash of password"},
+        {"name": "emailAddress",  "type": "string",   "doc": "Email address of the user"},
+        
+        {"name": "missionName",          "type": "string",   "doc": "Mission name"},
+        {"name": "missionDescription",   "type": "string",   "doc": "Mission description"},
+        {"name": "missionCountry",       "type": "string",   "doc": "Country"},
+        {"name": "missionOwner",         "type": "string",   "doc": "Company or person that owns the mission"}
+
+    ]
+},
+
+
+{
+    "name":       "MsgRegisterUser",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message register a new user of the CubeGS and creates a mission for him. It returns an error code",
+
+    "fields" : [
+
+        {"name": "user",        "type": "User",      "doc": "Administrator User data"},
+        {"name": "mission",     "type": "Mission",   "doc": "New mission data"}
+
+    ]
+}
+

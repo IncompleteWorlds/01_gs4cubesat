@@ -1,0 +1,43 @@
+{
+    "name":       "CalibrationItem",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "Calibration Item. It contains an item of a Calibration function",
+
+    "fields" : [
+
+        {"name": "calibration1",         "type": "string",      "doc": "First calibration value"},
+        {"name": "calibration2",         "type": "string",      "doc": "Second calibration value"},
+        {"name": "calibration2_text",    "type": "string",      "doc": "Descriptin of Second calibration value"}
+        
+    ]
+}
+,
+
+
+{
+  "name":       "Calibration",
+  "namespace":  "com.incomplete.cubegs.common.avro.messages",
+  "type":       "record",
+  "doc":        "Calibration function. It will apply to a TM Parameter",
+  "fields" : [
+
+    { "name": "name",                "type": "string",    "doc": "Name of the Calibration function" },
+    { "name": "description",         "type": "string",    "doc": "Description of the Calibration function" },
+    
+    { "name": "calibrationType",     "type":
+           { "type" : "enum",
+             "name" : "TmCalibrationTypeEnum",
+             "symbols" : [ "TM_CALIBRATION_ENUMERATION", "TM_CALIBRATION_POLYNOMIAL", "TM_CALIBRATION_SPLINE", "TM_CALIBRATION_EXPRESSION" ] }, 
+             "doc": "Calibration types"},
+             
+    { "name": "subsystem",           "type": "string",      "doc": "Subsystem name"},
+             
+    { "name": "listCalibrationItems",  "type": {
+        "type": "array", "items": "CalibrationItem"
+
+       }, "doc": "List of Calibration items"
+    }
+
+    ]
+}

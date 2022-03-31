@@ -1,0 +1,13 @@
+{
+    "name":       "MsgAddTmParameter",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message adds a new TM Parameter to a node or subsystem",
+
+    "fields" : [
+
+        {"name": "authorizationToken",    "type": "string",            "doc": "Authorization token"},
+        {"name": "tmParameter",           "type": "TM_Parameter",      "doc": "New TM Parameter object"}
+
+    ]
+}

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/../libs
+
+export LD_LIBRARY_PATH
+
+
+# Shutting down M&C
+# --------------------------------------------------------------------
+if [ -f m_c.pid ]; then
+    tmp_pid=`cat m_c.pid`
+
+    kill -9 $tmp_pid
+
+    rm m_c.pid
+fi

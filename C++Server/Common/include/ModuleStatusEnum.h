@@ -1,0 +1,13 @@
+#ifndef __MODULESTATUSENUM_H_INCLUDED__
+#define __MODULESTATUSENUM_H_INCLUDED__
+
+enum ModuleStatusEnum {
+    MODE_NONE = 0,
+    MODE_STARTED = 1,
+    MODE_NOT_RUNNING = 2,
+    MODE_RUNNING = 3,
+    MODE_COMPLETE = 4,
+    MODE_FAILED = 5
+};
+
+#endif // __MODULESTATUSENUM_H_INCLUDED__

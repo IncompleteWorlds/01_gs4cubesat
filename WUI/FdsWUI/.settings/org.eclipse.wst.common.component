@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <wb-module deploy-name="FdsWUI">
+                                                                
+        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                                                
+        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                                                
+        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/resources" source-path="/resources"/>
+                                
+        
+        
+        <dependent-module archiveName="GsCommon.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GsCommon/GsCommon">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <property name="context-root" value="FdsWUI"/>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <property name="java-output-path" value="/FdsWUI/build/classes"/>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </wb-module>
+                                
+
+
+
+
+
+
+
+</project-modules>

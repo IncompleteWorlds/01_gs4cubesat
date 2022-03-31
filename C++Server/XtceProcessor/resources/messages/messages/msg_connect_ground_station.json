@@ -1,0 +1,13 @@
+{
+    "name":       "MsgConnectGroundStation",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message connects to a ground station. It returns the connection id (pair key-value)",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "groundStationId",     "type": "int",      "doc": "Ground Station identifier"}
+    ]
+}
+

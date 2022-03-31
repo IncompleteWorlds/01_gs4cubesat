@@ -1,0 +1,14 @@
+{
+    "name" :      "Pass",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type" :      "record",
+    "doc"  :      "A pass over a ground station",
+    "fields" : [
+    
+        {"name": "identifier",     "type": "int",     "doc": "Unique identifier of the pass"},
+        {"name": "AOS",            "type": "string",  "doc": "AOS time. Format: YYYY-MM-DDTHH:mm:SS"},
+        {"name": "LOS",            "type": "string",  "doc": "LOS time. Format: YYYY-MM-DDTHH:mm:SS" },
+        {"name": "duration",       "type": "int",     "doc": "Duration of the pass in seconds" },
+        {"name": "maxElevation",   "type": "float",   "doc": "Maximum elevation, in decimal degrees" }
+    ]
+}

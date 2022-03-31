@@ -1,0 +1,15 @@
+{
+  "name":       "ListSatellites",
+  "namespace":  "com.incomplete.cubegs.common.avro.data_model",
+  "type":       "record",
+  "doc":        "List of Satellites of a Mission. It includes the Subsystems of each satellite",
+  "fields" : [
+
+    {"name": "listSatellites",     "type": {
+        "type": "array", "items": "Satellite"
+        
+       }, "doc": "List of Satellites and Subsystems"
+    }
+
+    ]
+}

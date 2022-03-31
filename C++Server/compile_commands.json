@@ -1,0 +1,681 @@
+[{
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/src/LayersTmDecoder.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/src/LayersTmDecoder.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/src/LayersTmDecoder.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/src/LayersTmDecoderModuleManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/src/LayersTmDecoderModuleManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/src/LayersTmDecoderModuleManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/include/LayersTmDecoderModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/include/LayersTmDecoderModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/LayersTmDecoder/include/LayersTmDecoderModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/messages/NewRawFrameMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/messages/NewRawFrameMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/messages/NewRawFrameMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/messages/NewRawFrameMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/messages/NewRawFrameMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/messages/NewRawFrameMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorMessageProcessor.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorMessageProcessor.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorMessageProcessor.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorFactoryMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorFactoryMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorFactoryMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/HkTmProcessorModuleManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/HkTmProcessorModuleManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/HkTmProcessorModuleManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/tm_processor_main.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/tm_processor_main.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/tm_processor_main.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/include/HkTmProcessorModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/HkTmProcessorMessageProcessor.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/HkTmProcessorMessageProcessor.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/HKTM_Processor/src/HkTmProcessorMessageProcessor.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I./include -I../Common/include -I../Security/include  -g  -O0  -Wall -std=c++11  -fexceptions  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control/include/SecurityAccessIF.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control/include/SecurityAccessIF.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control/include/SecurityAccessIF.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include  -g  -std=c++11  -Wall  -fexceptions -fPIC -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control/src/SecurityAccessIF.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control/src/SecurityAccessIF.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Security_Access_Control/src/SecurityAccessIF.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include  -g  -std=c++11  -Wall  -fexceptions -fPIC -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/BaseMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/BaseMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/BaseMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ModuleStatusEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ModuleStatusEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ModuleStatusEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ConfigurationManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ConfigurationManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ConfigurationManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/TimeUtils.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/TimeUtils.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/TimeUtils.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/RoleEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/RoleEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/RoleEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerZmq.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerZmq.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerZmq.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/FieldTypeEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/FieldTypeEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/FieldTypeEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerSubZmq.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerSubZmq.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerSubZmq.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManagerNng.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManagerNng.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManagerNng.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerNng.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerNng.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerNng.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/LogManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/LogManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/LogManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/MessageUtils.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/MessageUtils.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/MessageUtils.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerTransferNng.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerTransferNng.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerTransferNng.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/CommonTypes.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/CommonTypes.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/CommonTypes.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/TimeUtils.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/TimeUtils.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/TimeUtils.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/json11.hpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/json11.hpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/json11.hpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessorNng.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessorNng.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessorNng.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerSubZmq.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerSubZmq.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerSubZmq.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/AvroTypes.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/AvroTypes.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/AvroTypes.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/Crc.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/Crc.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/Crc.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/MessageUtils.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/MessageUtils.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/MessageUtils.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManagerZmq.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManagerZmq.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IModuleManagerZmq.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerZmq.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerZmq.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerZmq.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/Constants.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/Constants.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/Constants.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerTransferNng.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerTransferNng.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/ServerWorkerTransferNng.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/CommonUtils.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/CommonUtils.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/CommonUtils.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/resources/AvroTypes.avro",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/resources/AvroTypes.avro -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/resources/AvroTypes.avro.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessorZmq.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessorZmq.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessorZmq.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/json11.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/json11.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/json11.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/RadixEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/RadixEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/RadixEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/Crc.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/Crc.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/Crc.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/OperationCodeEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/OperationCodeEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/OperationCodeEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/EventTypeEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/EventTypeEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/EventTypeEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessor.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessor.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/IMessageProcessor.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/GSException.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/GSException.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/GSException.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/TmTypeEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/TmTypeEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/TmTypeEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/MagnitudeTypeEnum.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/MagnitudeTypeEnum.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/MagnitudeTypeEnum.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/LogManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/LogManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/include/LogManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ConfigurationManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ConfigurationManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ConfigurationManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerNng.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Common",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerNng.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Common/src/ServerWorkerNng.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude  -g  -std=c++11  -Wall  -fexceptions  -fPIC"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/FileTransferMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/FileTransferMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/FileTransferMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetFrameTypesMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetFrameTypesMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetFrameTypesMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetLayerParametersMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetLayerParametersMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetLayerParametersMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetMissionMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetMissionMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetMissionMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetSatelliteMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetSatelliteMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetSatelliteMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/ImportScDbMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/ImportScDbMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/ImportScDbMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/ToolsLoginMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/ToolsLoginMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/ToolsLoginMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddMissionMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddMissionMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddMissionMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddSatelliteMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddSatelliteMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddSatelliteMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetSubsystemMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetSubsystemMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetSubsystemMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateSubsystemMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateSubsystemMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateSubsystemMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveMissionLayerMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveMissionLayerMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveMissionLayerMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveSubsystemMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveSubsystemMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveSubsystemMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetMissionLayersMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetMissionLayersMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetMissionLayersMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetLayerParametersMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetLayerParametersMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetLayerParametersMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/ImportScDbMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/ImportScDbMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/ImportScDbMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/ToolsLoginMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/ToolsLoginMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/ToolsLoginMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateMissionMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateMissionMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateMissionMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetSatelliteMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetSatelliteMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetSatelliteMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateMissionMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateMissionMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateMissionMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsDatabase.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsDatabase.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsDatabase.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsMessageProcessor.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsMessageProcessor.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsMessageProcessor.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetMissionMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetMissionMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetMissionMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/tools_main.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/tools_main.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/tools_main.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RegisterUserMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RegisterUserMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RegisterUserMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ExcelFormat.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ExcelFormat.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ExcelFormat.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateSubsystemMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateSubsystemMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateSubsystemMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsMessageProcessor.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsMessageProcessor.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsMessageProcessor.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/BasicExcel.hpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/BasicExcel.hpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/BasicExcel.hpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveSatelliteMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveSatelliteMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveSatelliteMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetDefaultMissionLayersMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetDefaultMissionLayersMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetDefaultMissionLayersMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveSubsystemMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveSubsystemMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveSubsystemMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddMissionLayerMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddMissionLayerMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddMissionLayerMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsModuleManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsModuleManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/ToolsModuleManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/BasicExcel.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/BasicExcel.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/BasicExcel.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsDatabase.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsDatabase.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsDatabase.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ExcelFormat.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ExcelFormat.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ExcelFormat.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveMissionMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveMissionMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RemoveMissionMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsFactoryMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsFactoryMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/ToolsFactoryMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddSubsystemMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddSubsystemMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddSubsystemMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/FileTransferMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/FileTransferMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/FileTransferMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateSatelliteMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateSatelliteMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/UpdateSatelliteMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateSatellieMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateSatellieMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/UpdateSatellieMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveSatelliteMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveSatelliteMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveSatelliteMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RegisterUserMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RegisterUserMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/RegisterUserMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetSubsystemMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetSubsystemMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetSubsystemMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetFrameTypesMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetFrameTypesMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetFrameTypesMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddMissionMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddMissionMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddMissionMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddSatelliteMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddSatelliteMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddSatelliteMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveMissionLayerMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveMissionLayerMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveMissionLayerMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetMissionLayersMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetMissionLayersMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/GetMissionLayersMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddMissionLayerMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddMissionLayerMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/AddMissionLayerMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetDefaultMissionLayersMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetDefaultMissionLayersMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/GetDefaultMissionLayersMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddSubsystemMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddSubsystemMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/src/messages/AddSubsystemMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveMissionMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Tools",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveMissionMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Tools/include/messages/RemoveMissionMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/AddGsnMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/AddGsnMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/AddGsnMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/GetGsnMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/GetGsnMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/GetGsnMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/ConnectGsnMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/ConnectGsnMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/ConnectGsnMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/DisconnectGsnMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/DisconnectGsnMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/DisconnectGsnMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/AddGsnMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/AddGsnMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/AddGsnMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/GetGsnMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/GetGsnMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/GetGsnMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/DisconnectGsnMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/DisconnectGsnMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/DisconnectGsnMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsTcpConnection.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsTcpConnection.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsTcpConnection.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsDatabase.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsDatabase.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsDatabase.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsMessageProcessor.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsMessageProcessor.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsMessageProcessor.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsModuleManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsModuleManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsModuleManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsFactoryMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsFactoryMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsFactoryMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsConnectionManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsConnectionManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsConnectionManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsConnection.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsConnection.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsConnection.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsMessageProcessor.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsMessageProcessor.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsMessageProcessor.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsDatabase.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsDatabase.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsDatabase.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsConnectionManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsConnectionManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsConnectionManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsTcpConnection.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsTcpConnection.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsTcpConnection.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsConnection.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsConnection.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/GsConnection.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/RemoveGsnMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/RemoveGsnMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/RemoveGsnMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/GsModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/gs_main.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/gs_main.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/gs_main.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/ConnectGsnMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/ConnectGsnMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/src/messages/ConnectGsnMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/RemoveGsnMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/RemoveGsnMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/GS_Manager/include/messages/RemoveGsnMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/GetPassesMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/GetPassesMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/GetPassesMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/StartExecutionMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/StartExecutionMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/StartExecutionMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsMessageProcessor.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsMessageProcessor.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsMessageProcessor.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/StopExecutionMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/StopExecutionMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/StopExecutionMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/GetPassesMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/GetPassesMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/GetPassesMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/StopExecutionMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/StopExecutionMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/StopExecutionMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsDatabase.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsDatabase.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsDatabase.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/fds_main.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/fds_main.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/fds_main.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsModuleManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsModuleManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsModuleManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/FdsMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/FdsMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/FdsMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsFactoryMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsFactoryMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/FdsFactoryMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsMessageProcessor.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsMessageProcessor.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsMessageProcessor.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsDatabase.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsDatabase.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/FdsDatabase.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/StartExecutionMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/StartExecutionMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/src/messages/StartExecutionMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/FdsMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/FDS",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/FdsMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/FDS/include/messages/FdsMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++14  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/include/orbpropag_ModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/include/orbpropag_ModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/include/orbpropag_ModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/orbpropag_ModuleManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/orbpropag_ModuleManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/orbpropag_ModuleManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/zmq_fortran_lib.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/zmq_fortran_lib.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/zmq_fortran_lib.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/orbpropag_main.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/orbpropag_main.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/OrbPropag/src/orbpropag_main.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -Iinclude/messages -I../Common/include -I../Security_Access_Control/include  -g  -O0  -std=c++11  -Wall  -fexceptions  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/LoginMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/LoginMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/LoginMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/M_CMessageProcessor.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/M_CMessageProcessor.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/M_CMessageProcessor.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/StartUpMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/StartUpMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/StartUpMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/StartUpMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/StartUpMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/StartUpMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/M_CModuleManager.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/M_CModuleManager.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/M_CModuleManager.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/RegisterUserMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/RegisterUserMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/RegisterUserMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/m_c_main.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/m_c_main.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/m_c_main.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/RegisterUserMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/RegisterUserMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/RegisterUserMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/EventMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/EventMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/EventMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/LoginMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/LoginMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/LoginMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/EventMessage.cpp",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/EventMessage.cpp -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/src/EventMessage.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CMessageProcessor.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CMessageProcessor.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CMessageProcessor.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CFactoryMessage.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CFactoryMessage.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CFactoryMessage.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }, {
+  "file": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CModuleManager.h",
+  "directory": "/home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control",
+  "command": "clang  -c /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CModuleManager.h -o /home/alberto/Projects/01_gs4cubesat/C++Server/Monitor_Control/include/M_CModuleManager.h.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -Iinclude -I../Common/include -I../Security_Access_Control/include -I../Common/include/clients  -g  -O0  -std=c++11  -Wall  -m64  -Weffc++"
+ }]

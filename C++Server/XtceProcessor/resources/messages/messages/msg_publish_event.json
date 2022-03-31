@@ -1,0 +1,13 @@
+{
+    "name":       "MsgPublishEvent",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message shall be sent by component that want to publish an event",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "event",               "type": "Event",    "doc": "The Event"}
+    ]
+}
+

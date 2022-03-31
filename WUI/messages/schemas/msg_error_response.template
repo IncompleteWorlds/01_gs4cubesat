@@ -1,0 +1,14 @@
+{
+    "name":       "MsgErrorResponse",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message describes a generic error",
+    "fields" : [
+        {"name": "header",              "type": {{{MsgHeader}}},         "doc": "Common messages header"},
+
+        {"name": "error_data",          "type": ["null", {{{MsgErrorData}}}],  "doc": "Error code, error message", "default" : null},
+
+        {"name": "other_info",          "type": ["null", "string"],  "doc": "target component or system", "default" : null }
+
+    ]
+}

@@ -1,0 +1,202 @@
+/**
+ *  CubeGS
+ *  An online Ground Segment for Cubesats and Small Sats
+ *  (c) 2017 Incomplete Worlds
+ *
+ */
+ 
+// This file includes all Avro types that will be used in messages and as data model 
+// At the end of each include a comma ',' shall be included for separating structures
+
+[ 
+
+
+// -- DATA MODEL -------------
+// ---------------------------------
+#include "data_model/Common.json"
+,
+#include "data_model/Subsystem.json"  
+,
+// It needs Subsystem to be defined before defining it
+#include "data_model/Satellite.json"
+,
+// It needs Satellite to be defined before defining it
+#include "data_model/Mission.json"  
+,
+#include "data_model/Alarm.json"  
+,
+#include "data_model/Algorithm.json"  
+,
+#include "data_model/Calibration.json"  
+,
+#include "data_model/ConfigurationParameter.json"  
+,
+#include "data_model/Derived_TM_Parameter.json"  
+,
+#include "data_model/Event.json"  
+,
+#include "data_model/GroundStation.json"  
+,
+#include "data_model/KeyValue.json"  
+,
+#include "data_model/Layer.json"  
+,
+#include "data_model/Node.json"  
+,
+#include "data_model/Pass.json"  
+,
+#include "data_model/TC_Parameter.json"  
+,
+#include "data_model/TM_Parameter.json"  
+,
+#include "data_model/TM_ProcessedFrame.json"  
+,
+#include "data_model/User.json"  
+,
+// It needs TM_ProcessedFrame
+#include "data_model/XTCE_ProcessedFrame.json"  
+,
+// It needs TM_Parameter
+#include "data_model/TM_Frame.json"  
+,
+// It needs TC_Parameter
+//#include "data_model/TC_Frame.json"  
+//,
+// Lists need types defined beforehand
+#include "data_model/ListFrameTypes.json"  
+,
+#include "data_model/ListGroundStations.json"  
+,
+#include "data_model/ListKeyValues.json"  
+,
+#include "data_model/ListParameters.json"  
+,
+#include "data_model/ListLayers.json"  
+,
+#include "data_model/ListPasses.json"  
+,
+#include "data_model/ListSatellites.json"
+,
+#include "data_model/ListTC_Parameters.json"  
+,
+#include "data_model/ListTM_Parameters.json"  
+,
+
+// -- MESSAGES -------------
+// ---------------------------------
+
+ 
+#include "messages/msg_add_ground_station.json"
+,
+#include "messages/msg_add_mission.json"
+,
+#include "messages/msg_add_mission_layer.json"
+,
+#include "messages/msg_add_node.json"
+,
+#include "messages/msg_add_raw_frame.json"
+,
+#include "messages/msg_add_satellite.json"
+,
+#include "messages/msg_add_subsystem.json"
+,
+#include "messages/msg_add_tc_parameter.json"
+,
+#include "messages/msg_add_tm_parameter.json"
+,
+#include "messages/msg_check_licence.json"
+,
+#include "messages/msg_check_licence_response.json"
+,
+#include "messages/msg_connect_ground_station.json"
+,
+#include "messages/msg_disconnect_ground_station.json"
+,
+#include "messages/msg_get_default_mission_layers.json"
+,
+#include "messages/msg_get_frame_types.json"
+,
+#include "messages/msg_get_ground_station.json"
+,
+#include "messages/msg_get_layer.json"
+,
+#include "messages/msg_get_mission.json"
+,
+#include "messages/msg_get_mission_layers.json"
+,
+#include "messages/msg_get_node.json"
+,
+#include "messages/msg_get_passes.json"
+,
+#include "messages/msg_get_satellite.json"
+,
+#include "messages/msg_get_status.json"
+,
+#include "messages/msg_get_status_response.json"
+,
+#include "messages/msg_get_subsystem.json"
+,
+#include "messages/msg_get_tc_parameter.json"
+,
+#include "messages/msg_get_tm_parameter.json"
+,
+#include "messages/msg_header.json"
+,
+#include "messages/msg_import_sc_database.json"
+,
+#include "messages/msg_login.json"
+,
+#include "messages/msg_login_response.json"
+,
+#include "messages/msg_logout.json"
+,
+#include "messages/msg_process_raw_frame.json"
+,
+#include "messages/msg_publish_event.json"
+,
+#include "messages/msg_register_user.json"
+,
+#include "messages/msg_remove_ground_station.json"
+,
+#include "messages/msg_remove_layer.json"
+,
+#include "messages/msg_remove_mission.json"
+,
+#include "messages/msg_remove_node.json"
+,
+#include "messages/msg_remove_satellite.json"
+,
+#include "messages/msg_remove_subsystem.json"
+,
+#include "messages/msg_remove_tc_parameter.json"
+,
+#include "messages/msg_remove_tm_parameter.json"
+,
+#include "messages/msg_return_data.json"
+,
+#include "messages/msg_send_frame_ground_station.json"
+,
+#include "messages/msg_shutdown.json"
+,
+#include "messages/msg_start_up.json"
+,
+#include "messages/msg_update_ground_station.json"
+,
+#include "messages/msg_update_mission.json"
+,
+#include "messages/msg_update_node.json"
+,
+#include "messages/msg_update_satellite.json"
+,
+#include "messages/msg_update_subsystem.json"
+,
+#include "messages/msg_update_tc_parameter.json"
+,
+#include "messages/msg_update_tm_parameter.json"
+,
+
+ 
+// Last file. It shall not contain a comma at the end
+#include "last_none.json"
+
+]

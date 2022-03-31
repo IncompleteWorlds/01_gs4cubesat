@@ -1,0 +1,6 @@
+{"name": "listSatellites",    "type": {
+        "type": "array", "items":"Satellite" }, "doc": "List of satellites that belong to the mission"
+    }
+    
+    
+    

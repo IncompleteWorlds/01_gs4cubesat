@@ -1,0 +1,18 @@
+{
+    "module_name" : "Ground Station Simulator",
+    "Comment" : "
+CubeGS. An online Ground Segment for Cubesats and Small Sats
+(c) 2016 Incomplete Worlds
+
+This is the Ground Station Simulator configuration file.
+
+",
+
+    "log4cpp_properties":  "resources/log4cpp.properties",
+    "input_file_name":     "/home/alberto/Documents/01_gs4cubesat/data/strand-1/STRaND-1_27072013_1555UTC.kss",
+    "tcp_address":         "",
+    "tcp_port":            "10000",
+    "frame_size":          "",
+    "frame_type":          "kiss",
+    "delay_ms":            "250"
+}

@@ -1,0 +1,13 @@
+{
+    "name":       "MsgDisconnectGroundStation",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message disconnect from ground station",
+
+    "fields" : [
+
+        {"name": "authorizationToken",   "type": "string",   "doc": "Authorization token"},
+        {"name": "connectionId",         "type": "string",   "doc": "Ground Station connection identifier"}
+    ]
+}
+

@@ -1,0 +1,70 @@
+{ 
+    "name":       "WatchTriggerTypeEnum",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "enum",
+    "symbols" :   ["Low", "High", "State"]
+}
+,
+
+
+{
+    "name":       "AlarmContext",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "It defines an Alarm that applies to a TM Parameter",
+
+    "fields" : [
+
+        { "name": "parameterName",           "type": "string",   "doc": "Name of TM Parameter this alarm applies to"},
+        { "name": "reportType",              "type":
+           { "type" : "enum",
+             "name" : "AlarmReportTypeEnum",
+             "symbols" : [ "ALARM_REPORT_ON_VALUE_CHANGE", "ALARM_REPORT_ON_SEVERITY_CHANGE" ] }, 
+             "doc": "Alarm report types"},
+             
+        { "name": "minimumViolations",       "type": "int",      "doc": "Number of violations before Alarm is reported" },
+
+        
+        { "name": "watchTriggerType",        "type": "WatchTriggerTypeEnum",      "doc": "Type of trigger; low, high, state"},
+        { "name": "watchTriggerValue",       "type": "string",   "doc": "Value of the trigger"},
+
+
+        { "name": "warningTriggerType",      "type": "WatchTriggerTypeEnum",      "doc": "Type of trigger; low, high, state"},
+        { "name": "warningTriggerValue",     "type": "string",   "doc": "Value of the trigger"},
+
+
+        { "name": "distressTriggerType",     "type": "WatchTriggerTypeEnum",      "doc": "Type of trigger; low, high, state"},
+        { "name": "distressTriggerValue",    "type": "string",   "doc": "Value of the trigger"},
+
+
+        { "name": "criticalTriggerType",     "type": "WatchTriggerTypeEnum",      "doc": "Type of trigger; low, high, state"},
+        { "name": "criticalTriggerValue",    "type": "string",   "doc": "Value of the trigger"},
+
+
+        { "name": "severeTriggerType",       "type": "WatchTriggerTypeEnum",      "doc": "Type of trigger; low, high, state"},
+        { "name": "severeTriggerValue",      "type": "string",   "doc": "Value of the trigger"}
+
+    ]
+}
+,
+
+
+
+{
+    "name":       "Alarm",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "It defines an Alarm that applies to a TM Parameter",
+
+    "fields" : [
+
+        { "name": "parameterName",           "type": "string",    "doc": "Name of TM Parameter this alarm applies to"},
+
+        { "name": "listAlarmContext",  "type": {
+          "type": "array", "items": "AlarmContext"
+
+          }, "doc": "List of Context of the Alarm"
+        }
+        
+    ]
+}

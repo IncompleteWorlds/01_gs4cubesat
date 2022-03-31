@@ -1,0 +1,21 @@
+{
+  "name":       "FdsModule",
+  "namespace":  "com.incomplete.cubegs.common.avro.messages",
+  "type":       "record",
+  "doc":        "This record defines a FDS module. It can be external (separated binary file) or \
+internal (method of a class)",
+
+  "fields" : [
+
+    {"name": "identifier",        "type": "int",              "doc": "Unique identifier of the Node"},
+    {"name": "name",              "type": "string",           "doc": "Module name"},
+    {"name": "description",       "type": "string",           "doc": "Description of the Module. What it does" },
+    {"name": "type",              "type": "ModuleTypeEnum",   "doc": "Subsystem name" },
+    
+    {"name": "binary_file",       "type": "string",           "doc": "Only external. Binary file name and path" }
+    
+    ]
+}
+
+
+   

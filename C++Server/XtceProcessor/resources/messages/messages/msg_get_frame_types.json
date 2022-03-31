@@ -1,0 +1,13 @@
+{
+    "name":       "MsgGetFrameTypes",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message returns the list of Frame Types associated with a layer",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "layerName",           "type": "string",   "doc": "Layer name"}
+
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name":       "MsgLogin",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message requests a login of an user ",
+
+    "fields" : [
+
+        {"name": "userName",      "type": "string",   "doc": "User name"},
+        {"name": "hashPassword",  "type": "string",   "doc": "hash of password"}
+
+    ]
+}
+

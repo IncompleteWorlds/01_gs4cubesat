@@ -1,0 +1,16 @@
+/**
+ *  CubeGS
+ *  An online Ground Segment for Cubesats and Small Sats
+ *  (c) 2021 Incomplete Worlds
+ *  Alberto Fernandez
+ */
+ 
+// This file contains the definition of the message schema
+// It will be used when the encoding of messages is JSON
+
+
+#include "../messages/msg_header.json"
+
+,
+
+#include "../messages/msg_received_header.json"

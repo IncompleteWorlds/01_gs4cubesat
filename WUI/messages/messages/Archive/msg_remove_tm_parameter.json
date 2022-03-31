@@ -1,0 +1,15 @@
+{
+    "name":       "MsgRemoveTmParameter",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message removes a TM Parameter. If the TM Parameter Id is null, it will use the Node and Channel parameters.",
+
+    "fields" : [
+
+        {"name": "authorizationToken",     "type": "string",   "doc": "Authorization token"},
+        {"name": "tmParameterId",          "type": "int",      "doc": "TM Parameter identifier"},
+        {"name": "nodeId",                 "type": "int",      "doc": "Node or subsystem identifier"},
+        {"name": "channelId",              "type": "int",      "doc": "Channel identifier or tm point identifier within subsystem"}
+
+    ]
+}

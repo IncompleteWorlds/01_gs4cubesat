@@ -1,0 +1,16 @@
+{
+    "name":       "MsgStartModuleExecution",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message requests the FDS (and module) to execute a module. \
+It will return the final status as a message in the Pub/Sub bus",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",         "doc": "Authorization token" },
+        {"name": "module_name",         "type": "string",         "doc": "FDS module to run" },
+        {"name": "execution_id",        "type": "string",         "doc": "FDS execution id. It identifies the external process" },
+        {"name": "parameters",          "type": "ListKeyValues",  "doc": "List of input parameters" }
+    
+    ]
+}

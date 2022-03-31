@@ -1,0 +1,19 @@
+{
+    "name" :      "Layer",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type" :      "record",
+    "doc"  :      "A communication protocol layer",
+    
+    "fields" : [
+        {"name": "identifier",       "type": "int",       "doc": "Unique identifier of the layer"},
+        {"name": "name",             "type": "string",    "doc": "Name of the Layer"},
+        {"name": "description",      "type": "string",    "doc": "Description of the Layer" },
+        {"name": "sequenceNumber",   "type": "int",       "doc": "Number of index inside of the stack of layers. 0 means the bottom" },
+        {"name": "defaultFlag",      "type": "boolean",   "doc": "It indicates whether it is a default layer in terms of definition. I.e. Ax.25" },
+        {"name": "missionName",      "type": "string",    "doc": "Mission name" },
+        {"name": "listParameters",   "type": ["null", {
+              "type": "array", "items": "ConfigurationParameter"
+             }], "doc": "List of Configuration Parameters of the Layer"
+        }
+    ]
+}

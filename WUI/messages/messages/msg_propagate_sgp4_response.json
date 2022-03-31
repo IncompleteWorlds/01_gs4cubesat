@@ -1,0 +1,28 @@
+{
+    "name":       "MsgPropagateSGP4Response",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "Response message to the SGP4 propagation",
+
+    "fields" : [
+        {"name": "header",              "type": "MsgHeader",    "doc": "Common messages header"},
+
+        {"name": "error_data",          "type": ["null", "MsgErrorData"],  "doc": "Error code, error message", "default" : null},
+
+        {"name": "mission_id",          "type": "string",       "doc": "Unique mission identifier"},
+        {"name": "satellite_id",        "type": "string",       "doc": "Unique satellite identifier"},
+
+        {"name": "reference_frame",     "type": "string",       "doc": "EarthMJ2000Eq" },
+        {"name": "epoch_format",        "type": "string",       "doc": "Epoch format; UTCGregorian (UTC)      UTCModJulian  (MJD_2000)"},
+        {"name": "output_format",       "type": "string",       "doc": "JSON, CSV, CCSDS-OEM" },
+
+        {"name": "ephemeris",           "type": {
+              "type": "array", "items": "com.incomplete.cubegs.common.avro.data_model.StateVector"
+  
+             }, "doc": "List of Ephemeris (state vector)"
+        },
+
+        {"name": "ephemeris_text",      "type": "string",       "doc": "List of Ephemeris as Text; CSV, CCSDS" }
+    ] 
+}
+

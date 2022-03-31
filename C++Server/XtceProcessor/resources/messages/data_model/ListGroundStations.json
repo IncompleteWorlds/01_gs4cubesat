@@ -1,0 +1,17 @@
+{
+  "name":       "ListGroundStations",
+  "namespace":  "com.incomplete.cubegs.common.avro.messages",
+  "type":       "record",
+  "doc":        "This record contains a list of Ground Stations",
+  "fields" : [
+
+    {"name": "numberGroundStations",   "type": "string",  "doc": "Number of ground stations in the list"},
+    {"name": "listGroundStations",     "type": {
+        "type": "array", "items": "GroundStation"
+        
+       }, "doc": "List of ground stations"
+    }
+
+    ]
+}
+

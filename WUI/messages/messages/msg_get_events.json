@@ -1,0 +1,31 @@
+{
+    "name":       "MsgGetEvents",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message requests the generation of events between two dates for a concrete satellite",
+
+    "fields" : [
+    
+        {"name": "header",              "type": "MsgHeader",   "doc": "Common messages header"},
+
+        {"name": "mission_id",          "type": "string",      "doc": "Unique mission identifier"},
+        {"name": "satellite_id",        "type": "string",      "doc": "Unique satellite identifier"},
+
+        {"name": "epoch_format",        "type": "string",      "doc": "Epoch format; UTCGregorian (UTC)      UTCModJulian  (MJD_2000)"},
+        {"name": "start_time",          "type": "string",      "doc": "Start time of time period. Format: YYYY-MM-DDTHH:mm:SS.SSSZ"},
+        {"name": "stop_time",           "type": "string",      "doc": "Stop time of time period. Format: YYYY-MM-DDTHH:mm:SS.SSSZ"},
+
+
+        {"name": "ground_station_id",    "type": "int",        "doc": "Ground Station identifier" },
+        {"name": "antenna_id",           "type": "int",        "doc": "Antenna identifier within the station" },
+
+        {"name": "lattitude",            "type": "double",     "doc": "Latitude of the station in WGS84" },
+        {"name": "longitude",            "type": "double",     "doc": "Longitude of the station in WGS84" },
+        {"name": "altitude",             "type": "double",     "doc": "Altitude of the station in meters" },
+
+        {"name": "event_types",          "type": 
+               { "type" : "array", "items" : "com.incomplete.cubegs.common.avro.data_model.FdsEventEnum"},   
+                                                               "doc": "List of event types to be generated"}
+
+    ]
+}

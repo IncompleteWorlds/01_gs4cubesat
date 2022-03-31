@@ -1,0 +1,12 @@
+{
+    "name":       "MsgGetDefaultMissionLayers",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message returns the Default Communication Layers to be used by the missions. It will return a list of Default Layers",
+
+    "fields" : [
+
+        {"name": "authorizationToken",    "type": "string",   "doc": "Authorization token"}
+
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "name":       "AvroNone",
+  "namespace":  "com.incomplete.cubegs.common.avro.messages",
+  "type":       "record",
+  "doc":        "This message indicates there is no more messages or data. It contains no comma at the end",
+  "fields" : [
+
+    {"name": "none_field",   "type": "int",     "doc": "End of include files"}
+
+  ]
+}

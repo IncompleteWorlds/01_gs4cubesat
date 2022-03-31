@@ -1,0 +1,14 @@
+{
+    "name":       "MsgGetNode",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message retrieves a Node(s) of a Satellite. If Node Id is null, it will return all the Nodes. It returns a List of Nodes object",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "subsystemId",         "type": "int",      "doc": "Unique identifier of the Subsystem"},
+        {"name": "nodeId",              "type": "int",      "doc": "Unique identifier of the Node"}
+        
+    ]
+}

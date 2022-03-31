@@ -1,0 +1,60 @@
+{
+    "name" :      "TM_FrameField",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type" :      "record",
+    "doc"  :      "This structure defines a field of a TM Frame",
+    "fields" : [
+        {"name": "frameName",             "type": "string",    "doc": "Name of the TM Frame this condition belongs to"},
+        {"name": "parameterName",         "type": "string",    "doc": "Name of the parameter"},
+        {"name": "relativePosition",      "type": "int",       "doc": "Start position of the parameter in the Container, in bits"},
+        {"name": "sequenceNumber",        "type": "int",       "doc": "Index of the field inside of the sequence that composes the frame"}
+    ]
+}
+,
+
+{
+    "name" :      "TM_FrameCondition",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type" :      "record",
+    "doc"  :      "Definition of a Condition that a TM Frame shall meet",
+    "fields" : [
+        {"name": "frameName",             "type": "string",    "doc": "Name of the TM Frame this condition belongs to"},
+        {"name": "parameterName",         "type": "string",    "doc": "Name of the parameter"},
+        {"name": "parameterValue",        "type": "string",    "doc": "Value the parameter must have"}
+    ]
+}
+,
+
+{
+    "name" :      "TM_Frame",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type" :      "record",
+    "doc"  :      "This record contains the definition of a TM Frame (aka Container), at application level protocol",
+    "fields" : [
+        { "name": "name",                 "type": "string",  "doc": "Name of Frame Type"},
+        { "name": "description",          "type": "string",  "doc": "Description of Frame Type"},
+        { "name": "expectedInterval",     "type": "int",     "doc": "Expected interval in milliseconds"},
+        { "name": "lengthBits",           "type": "int",     "doc": "Length of frame in bits. Padding to the right"},
+        { "name": "flag",    "type":
+            { "type" : "enum",
+              "name" : "TmFrameFlagEnum",
+              "symbols" : [ "TM_FRAME_ARCHIVE", "TM_FRAME_LITTLE_ENDIAN" ] 
+              }, "doc": "Field value subtypes"},      
+
+        { "name": "frameConditions",  "type": ["null", {
+             "type": "array", "items": "TM_FrameCondition"
+            }], "doc": "List of TM Frame conditions"
+        },
+
+
+        { "name": "tmFields",  "type": {
+            "type": "array", "items": "TM_FrameField"
+
+           }, "doc": "List of TM Field"
+        },
+        
+        {"name": "layerName",             "type": "string",     "doc": "Layer identifier the frame belongs to"}
+        
+    ]
+}
+

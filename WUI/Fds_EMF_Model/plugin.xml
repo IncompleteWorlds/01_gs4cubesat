@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated CommonModel -->
+      <package
+            uri="http://com/incomplete/cubegs/common_model"
+            class="common_model.Common_modelPackage"
+            genModel="model/CommonModel.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated FdsModel -->
+      <package
+            uri="http://com/incomplete/cubegs/fds_model"
+            class="fds_model.Fds_modelPackage"
+            genModel="model/FdsModel.genmodel"/>
+   </extension>
+
+</plugin>

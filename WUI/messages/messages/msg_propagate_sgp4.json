@@ -1,0 +1,48 @@
+{
+    "name":       "MsgPropagateSGP4",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message propagates the orbit of the selected satellite using SGP4 algoritm",
+
+    "fields" : [
+        {"name": "header",              "type": "MsgHeader",   "doc": "Common messages header"},
+
+        {"name": "mission_id",          "type": "string",      "doc": "Unique mission identifier"},
+        {"name": "satellite_id",        "type": "string",      "doc": "Unique satellite identifier"},
+
+
+        {"name": "add_to_database",     "type": "boolean",     "doc": "Add output to the mission database. Not used", "default" : false },
+        {"name": "epoch_format",        "type": "string",      "doc": "Epoch format; UTCGregorian (UTC)      UTCModJulian  (MJD_2000)"},
+        {"name": "start_time",          "type": "string",      "doc": "Start time of time period. Format: YYYY-MM-DDTHH:mm:SS.SSSZ"},
+        {"name": "stop_time",           "type": "string",      "doc": "Stop time of time period. Format: YYYY-MM-DDTHH:mm:SS.SSSZ"},
+        {"name": "step_size",           "type": "int",         "doc": "Step size in seconds"},
+
+
+        {"name": "initial_position",    "type": {
+             "type" : "array", "items" : "double"
+             }, "doc": "x, y, z" },
+
+        {"name": "initial_velocity",    "type": {
+             "type" : "array", "items" : "double"
+             }, "doc": "vx, vy, vz" },
+
+        {"name": "Sgp4Input",               "type" : {
+             "name": "Tle",  "type": "record", "fields" : [
+                    { "name" : "line1",   "type" : "string" },
+                    { "name" : "line2",   "type" : "string" }
+                ]
+             }
+        },
+
+        {"name": "output",              "type": { 
+             "name" : "Sgp4Output", "type": "record", "fields" : [
+                    { "name" : "reference_frame",   "type" : "string",    "doc": "EarthMJ2000Eq" },
+                    { "name" : "epoch_format",      "type": "string",     "doc": "Epoch format; UTCGregorian (UTC)      UTCModJulian  (MJD_2000)"},
+                    { "name" : "output_format",     "type" : "string",    "doc": "CSV, JSON, CCSDS-OEM" }
+                ]
+            }
+        }
+    ]
+}
+
+

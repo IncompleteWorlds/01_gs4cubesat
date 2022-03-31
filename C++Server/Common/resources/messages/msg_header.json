@@ -1,0 +1,22 @@
+{
+    "name":       "MsgHeader",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message describes the header of a message",
+
+    "fields" : [
+
+        { "name": "messageId",       "type": "int",     "doc": "Unique identifier of the message" },
+        { "name": "correlationId",   "type": "int",     "doc": "Correlation identifier. Identifier of the originator message (messageId). So, this reply is related to it" },
+        { "name": "service",         "type": "int",     "doc": "Service id" },
+        { "name": "URIfrom",         "type": "string",  "doc": "URI of message source. System or component" },
+        { "name": "URIto",           "type": "string",  "doc": "URI of message target" },
+        { "name": "generationTime",  "type": "string",  "doc": "Generation timestamp" },
+        { "name": "expirationTime",  "type": [ "null", "int" ],     "doc": "Expiration time of the message (in seconds since 1970)" },
+        { "name": "sequenceId",      "type": [ "null", "int" ],     "doc": "Identifier of the sequence (optional)" },
+        { "name": "positionId",      "type": "int",     "doc": "Uniquely identifies a message in a sequence. Sequential order" },
+        { "name": "sequenceSize",    "type": "int",     "doc": "Number of messages in the sequence" }
+
+    ]
+}
+

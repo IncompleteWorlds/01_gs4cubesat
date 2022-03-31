@@ -1,0 +1,17 @@
+{
+  "name":       "ListKeyValues",
+  "namespace":  "com.incomplete.cubegs.common.avro.messages",
+  "type":       "record",
+  "doc":        "This record contains a list of key-value pairs",
+  "fields" : [
+
+    {"name": "listKeyValues",  "type": {
+        "type": "array", "items": "KeyValue"
+
+       }, "doc": "List of key-value pairs"
+    }
+
+    ]
+}
+
+

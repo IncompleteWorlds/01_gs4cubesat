@@ -1,0 +1,1491 @@
+[
+{
+    "name" : "TmTypeEnum",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "enum",
+    "symbols" : [ "TM_TYPE_NONE", "TM_TYPE_BOOLEAN", "TM_TYPE_ENUMERATED", "TM_TYPE_UNSIGNED_INTEGER", "TM_TYPE_SIGNED_INTEGER", "TM_TYPE_DOUBLE", "TM_TYPE_BIT_STRING", "TM_TYPE_OCTET_STRING", "TM_TYPE_STRING", "TM_TYPE_ABSOLUTE_DATE", "TM_TYPE_RELATIVE_TIME", "TM_TYPE_DEDUCED", "TM_TYPE_FIXED_STRING", "TM_TYPE_TERMINATE_STRING", "TM_TYPE_PREPEND_STRING", "TM_TYPE_BYTE_STREAM" ]
+}
+,
+{
+    "name" : "TmSubTypeEnum",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "enum",
+    "symbols" : [ "TM_SUBTYPE_NONE", "TM_SUBTYPE_INT8", "TM_SUBTYPE_INT16", "TM_SUBTYPE_INT32", "TM_SUBTYPE_INT64", "TM_SUBTYPE_UINT8", "TM_SUBTYPE_UINT16", "TM_SUBTYPE_UINT32", "TM_SUBTYPE_UINT64" ]
+}
+,
+{
+    "name" : "TmEngTypeEnum",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "enum",
+    "symbols" : [ "TM_ENGTYPE_NONE", "TM_ENGTYPE_UNSIGNED_INTEGER", "TM_ENGTYPE_UNSIGNED_INTEGER64", "TM_ENGTYPE_SIGNED_INTEGER", "TM_ENGTYPE_SIGNED_INTEGER64", "TM_ENGTYPE_ENUMERATED", "TM_ENGTYPE_FLOAT", "TM_ENGTYPE_DOUBLE", "TM_ENGTYPE_BOOLEAN", "TM_ENGTYPE_STRING", "TM_ENGTYPE_BINARY"]
+}
+,
+{
+    "name" : "RadixEnum",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "enum",
+    "symbols" : [ "RADIX_NONE", "RADIX_DECIMAL", "RADIX_HEXADECIMAL" ]
+},
+{
+    "name" : "ModuleTypeEnum",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "enum",
+    "symbols" : [ "EXTERNAL_MODULE", "INTERNAL_MODULE" ]
+}
+,
+{
+  "name": "Subsystem",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains the definition of a subsystem",
+  "fields" : [
+    {"name": "name", "type": "string", "doc": "Subsystem name"},
+    {"name": "description", "type": "string", "doc": "Description of the Subsystem" },
+    {"name": "satelliteName", "type": "string", "doc": "Satellite name" }
+    ]
+}
+,
+{
+  "name": "Satellite",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains the Satellite parameters",
+  "fields" : [
+    {"name": "name", "type": "string", "doc": "Name of the satellite" },
+    {"name": "missionName", "type": "string", "doc": "Name of the mission" },
+    {"name": "description", "type": "string", "doc": "Description of the satellite" },
+    {"name": "code", "type": "string", "doc": "Short code of the satellite" },
+    {"name": "launchDate", "type": "string", "doc": "Launch date. Format: YYYY-MM-DDTHH:mm:SS" },
+    {"name": "listSubsystems", "type": ["null", {
+        "type": "array", "items":"Subsystem"
+        }], "doc": "List of subsystems of the satellite"
+    }
+    ]
+}
+,
+{
+  "name": "Mission",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains the mission parameters",
+  "fields" : [
+    {"name": "name", "type": "string", "doc": "Unique Mission name"},
+    {"name": "description", "type": "string", "doc": "Description of the mission" },
+    {"name": "country", "type": "string", "doc": "Country of the company / entity owning the mission" },
+    {"name": "owner", "type": "string", "doc": "Company / entity that owns the mission" },
+    {"name": "creationTime", "type": "string", "doc": "Creation time. Format: YYYY-MM-DDTHH:mm:SS" },
+    {"name": "adminIdentifier", "type": "int", "doc": "Mission administrator" },
+    {"name": "emailAddress", "type": "string", "doc": "Email address of the Owner" },
+    {"name": "phoneNumber", "type": "string", "doc": "Contact number of the Owner" },
+    {"name": "listSatellites", "type": ["null", {
+        "type": "array", "items":"Satellite"
+        }], "doc": "List of satellites that belong to the mission"
+    }
+    ]
+}
+,
+{
+    "name": "WatchTriggerTypeEnum",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "enum",
+    "symbols" : ["Low", "High", "State"]
+}
+,
+{
+    "name": "AlarmContext",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines an Alarm that applies to a TM Parameter",
+    "fields" : [
+        { "name": "parameterName", "type": "string", "doc": "Name of TM Parameter this alarm applies to"},
+        { "name": "reportType", "type":
+           { "type" : "enum",
+             "name" : "AlarmReportTypeEnum",
+             "symbols" : [ "ALARM_REPORT_ON_VALUE_CHANGE", "ALARM_REPORT_ON_SEVERITY_CHANGE" ] },
+             "doc": "Alarm report types"},
+        { "name": "minimumViolations", "type": "int", "doc": "Number of violations before Alarm is reported" },
+        { "name": "watchTriggerType", "type": "WatchTriggerTypeEnum", "doc": "Type of trigger; low, high, state"},
+        { "name": "watchTriggerValue", "type": "string", "doc": "Value of the trigger"},
+        { "name": "warningTriggerType", "type": "WatchTriggerTypeEnum", "doc": "Type of trigger; low, high, state"},
+        { "name": "warningTriggerValue", "type": "string", "doc": "Value of the trigger"},
+        { "name": "distressTriggerType", "type": "WatchTriggerTypeEnum", "doc": "Type of trigger; low, high, state"},
+        { "name": "distressTriggerValue", "type": "string", "doc": "Value of the trigger"},
+        { "name": "criticalTriggerType", "type": "WatchTriggerTypeEnum", "doc": "Type of trigger; low, high, state"},
+        { "name": "criticalTriggerValue", "type": "string", "doc": "Value of the trigger"},
+        { "name": "severeTriggerType", "type": "WatchTriggerTypeEnum", "doc": "Type of trigger; low, high, state"},
+        { "name": "severeTriggerValue", "type": "string", "doc": "Value of the trigger"}
+    ]
+}
+,
+{
+    "name": "Alarm",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines an Alarm that applies to a TM Parameter",
+    "fields" : [
+        { "name": "parameterName", "type": "string", "doc": "Name of TM Parameter this alarm applies to"},
+        { "name": "listAlarmContext", "type": {
+          "type": "array", "items": "AlarmContext"
+          }, "doc": "List of Context of the Alarm"
+        }
+    ]
+}
+,
+{
+    "name": "AlgorithmParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines an input or output parameter of an Algorithm",
+    "fields" : [
+        { "name": "algorithmName", "type": "string", "doc": "Name of the Algorithm" },
+        { "name": "parameterName", "type": "string", "doc": "Name of the Parameter" },
+        { "name": "parameterValue", "type": "string", "doc": "Source code of the algorithm"},
+        { "name": "inputOutputType", "type": "int", "doc": "0 - Input, 1 - Outputparameter" },
+        { "name": "nameInAlgorithm", "type": "string", "doc": "Name of the parameter in the algorithm"},
+        { "name": "mandatoryFlag", "type": "boolean", "doc": "0 - False, 1 - True" },
+        { "name": "subsystem", "type": "string", "doc": "Subsystem name"}
+    ]
+}
+,
+{
+    "name": "Algorithm",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines an Algorithm that will be executed, i.e., when a TM Parameter is updated, at a Periodic rate, etc.",
+    "fields" : [
+        { "name": "algorithmName", "type": "string", "doc": "Name of the Algorithm" },
+        { "name": "algorithmLanguage", "type":
+           { "type" : "enum",
+             "name" : "AlgorithmLanguageEnum",
+             "symbols" : [ "ALGORITHM_JAVASCRIPT", "ALGORITHM_PYTHON", "ALGORITHM_JAVA" ] },
+             "doc": "Language the algorithm is coded"},
+        { "name": "sourceCode", "type": "string", "doc": "Source code of the algorithm"},
+        { "name": "trigger", "type":
+           { "type" : "enum",
+             "name" : "TriggerEnum",
+             "symbols" : [ "ALGORITHM_TRIGGER_NONE", "ALGORITHM_ON_PARAMETER_UPDATE", "ALGORITHM_ON_INPUT_PARAMETER_UPDATE", "ALGORITHM_ON_PERIODIC_RATE" ] },
+             "doc": "Language the algorithm is coded"},
+        { "name": "listAlgVariables", "type": {
+          "type": "array", "items": "AlgorithmParameter"
+          }, "doc": "List of input-output parameters of the Algorithm"
+        },
+        { "name": "subsystem", "type": "string", "doc": "Subsystem name"}
+    ]
+}
+,
+{
+    "name": "CalibrationItem",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "Calibration Item. It contains an item of a Calibration function",
+    "fields" : [
+        {"name": "calibration1", "type": "string", "doc": "First calibration value"},
+        {"name": "calibration2", "type": "string", "doc": "Second calibration value"},
+        {"name": "calibration2_text", "type": "string", "doc": "Descriptin of Second calibration value"}
+    ]
+}
+,
+{
+  "name": "Calibration",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "Calibration function. It will apply to a TM Parameter",
+  "fields" : [
+    { "name": "name", "type": "string", "doc": "Name of the Calibration function" },
+    { "name": "description", "type": "string", "doc": "Description of the Calibration function" },
+    { "name": "calibrationType", "type":
+           { "type" : "enum",
+             "name" : "TmCalibrationTypeEnum",
+             "symbols" : [ "TM_CALIBRATION_ENUMERATION", "TM_CALIBRATION_POLYNOMIAL", "TM_CALIBRATION_SPLINE", "TM_CALIBRATION_EXPRESSION" ] },
+             "doc": "Calibration types"},
+    { "name": "subsystem", "type": "string", "doc": "Subsystem name"},
+    { "name": "listCalibrationItems", "type": {
+        "type": "array", "items": "CalibrationItem"
+       }, "doc": "List of Calibration items"
+    }
+    ]
+}
+,
+{
+    "name": "ConfigurationParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "A Configuration Parameter. It is generic",
+    "fields" : [
+        {"name": "identifier", "type": "int", "doc": "Unique identifier of the parameter"},
+        {"name": "name", "type": "string", "doc": "Name of the parameter" },
+        {"name": "description", "type": "string", "doc": "Description of the parameter" },
+        {"name": "type", "type": "int", "doc": "Parameter type"},
+        {"name": "value", "type": "string", "doc": "Event creation time in milliseconds"},
+        {"name": "userId", "type": "int", "doc": "User identifier"},
+        {"name": "missionName", "type": "string", "doc": "Mission name"},
+        {"name": "layerName", "type": "string", "doc": "Layer name"}
+    ]
+}
+,
+{
+    "name": "Derived_TM_Parameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "A Derived TM Parameter",
+    "fields" : [
+        {"name": "identifier", "type": "int", "doc": "Unique identifier of the parameter in the DB"},
+        {"name": "name", "type": "string", "doc": "Name of the parameter" },
+        {"name": "displayName", "type": "string", "doc": "Name to be displayed" },
+        {"name": "description", "type": "string", "doc": "Description of the parameter" },
+        {"name": "lengthBits", "type": "int", "doc": "Length of the field in bits"},
+        {"name": "prependSize", "type": "int", "doc": "Size of string or bit of string. It will be located before the string"},
+        {"name": "stringTerminator", "type": "string", "doc": "String terminator. I.e. 0x0" },
+        {"name": "littleEndian", "type": "boolean", "doc": "1 - True, 0 - False"},
+        {"name": "valueType", "type": "TmTypeEnum", "doc": "Raw value types"},
+        {"name": "valueSubType", "type": "TmSubTypeEnum", "doc": "Raw value subtypes"},
+        {"name": "engType", "type": "TmEngTypeEnum", "doc": "Field raw value types"},
+        {"name": "units", "type": "string", "doc": "Units"},
+        {"name": "calibrationFunction", "type": "string", "doc": "Calibration function name"},
+        {"name": "subsystem", "type": "string", "doc": "Subsystem name"}
+    ]
+}
+,
+{
+    "name": "Event",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "An Event that a component or system publishes",
+    "fields" : [
+        {"name": "type", "type": "int", "doc": "Event type"},
+        {"name": "eventTime", "type": "long", "doc": "Event creation time in milliseconds"},
+        {"name": "data", "type": "bytes", "doc": "Array of bytes"},
+        {"name": "dataLength", "type": "int", "doc": "Number of bytes to be sent"}
+    ]
+}
+,
+{
+  "name": "FdsModule",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record defines a FDS module. It can be external (separated binary file) or internal (method of a class)",
+  "fields" : [
+    {"name": "identifier", "type": "int", "doc": "Unique identifier of the Node"},
+    {"name": "name", "type": "string", "doc": "Module name"},
+    {"name": "description", "type": "string", "doc": "Description of the Module. What it does" },
+    {"name": "type", "type": "ModuleTypeEnum", "doc": "Subsystem name" },
+    {"name": "binary_file", "type": "string", "doc": "Only external. Binary file name and path" }
+    ]
+}
+,
+{
+  "name": "GroundStation",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains the ground station parameters",
+  "fields" : [
+    {"name": "identifier", "type": "int", "doc": "Unique identifier of the ground station"},
+    {"name": "name", "type": "string", "doc": "Ground station name"},
+    {"name": "description", "type": "string", "doc": "Description of the station" },
+    {"name": "code", "type": "string", "doc": "Short code of the station. I.e. SVB" },
+    {"name": "owner", "type": "string", "doc": "Company / entity that owns the ground station" },
+    {"name": "latitude", "type": "float", "doc": "Latitude of the station. Decimal degree. North" },
+    {"name": "longitude", "type": "float", "doc": "Longitude of the station. Decimal degree. East" },
+    {"name": "altitude", "type": "float", "doc": "Altitude over the sea of the station. Meters" },
+    {"name": "connectionType", "type":
+       { "type" : "enum",
+         "name" : "ConnectionTypeEnum",
+         "symbols" : [ "NONE", "TCP", "SERIAL", "USB" ] }, "doc": "Connection type. Enum; NONE, TCP, SERIAL, USB"},
+    {"name": "url", "type": "string", "doc": "URL of the ground station. Tcp connections" },
+    {"name": "port", "type": "int", "doc": "IP port of the GS. Tcp connections" },
+    {"name": "comPort", "type": "string", "doc": "Serial com port of the GS" },
+    {"name": "speed", "type": "float", "doc": "Serial speed of the serial link with GS" },
+    {"name": "parity", "type": "float", "doc": "Serial parity of the serial link with GS" },
+    {"name": "controlBits", "type": "float", "doc": "Control bits of the serial link" }
+  ]
+}
+,
+{
+    "name" : "KeyValue",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "A generic pair of key = value",
+    "fields" : [
+        {"name": "key", "type": "string", "doc": "Key"},
+        {"name": "value", "type": "string", "doc": "Value"}
+    ]
+}
+,
+{
+    "name" : "Layer",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "A communication protocol layer",
+    "fields" : [
+        {"name": "identifier", "type": "int", "doc": "Unique identifier of the layer"},
+        {"name": "name", "type": "string", "doc": "Name of the Layer"},
+        {"name": "description", "type": "string", "doc": "Description of the Layer" },
+        {"name": "sequenceNumber", "type": "int", "doc": "Number of index inside of the stack of layers. 0 means the bottom" },
+        {"name": "defaultFlag", "type": "boolean", "doc": "It indicates whether it is a default layer in terms of definition. I.e. Ax.25" },
+        {"name": "missionName", "type": "string", "doc": "Mission name" },
+        {"name": "listParameters", "type": ["null", {
+              "type": "array", "items": "ConfigurationParameter"
+             }], "doc": "List of Configuration Parameters of the Layer"
+        }
+    ]
+}
+,
+{
+  "name": "Node",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains the definition of a Node",
+  "fields" : [
+    {"name": "identifier", "type": "int", "doc": "Unique identifier of the Node"},
+    {"name": "name", "type": "string", "doc": "Node name"},
+    {"name": "description", "type": "string", "doc": "Description of the Node" },
+    {"name": "subsystemName", "type": "string", "doc": "Subsystem name" }
+    ]
+}
+,
+{
+    "name" : "Pass",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "A pass over a ground station",
+    "fields" : [
+        {"name": "identifier", "type": "int", "doc": "Unique identifier of the pass"},
+        {"name": "AOS", "type": "string", "doc": "AOS time. Format: YYYY-MM-DDTHH:mm:SS"},
+        {"name": "LOS", "type": "string", "doc": "LOS time. Format: YYYY-MM-DDTHH:mm:SS" },
+        {"name": "duration", "type": "int", "doc": "Duration of the pass in seconds" },
+        {"name": "maxElevation", "type": "float", "doc": "Maximum elevation, in decimal degrees" }
+    ]
+}
+,
+{
+    "name": "TC_Argument",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines an argument of a TC",
+    "fields" : [
+        {"name": "name", "type": "string", "doc": "Argument name"},
+        {"name": "description", "type": "string", "doc": "Description of the argument"},
+        {"name": "tcName", "type": "string", "doc": "TC name"},
+        {"name": "relativePosition", "type": "int", "doc": "Relative position within the TC frame"},
+        {"name": "lengthBits", "type": "int", "doc": "Length in bits of the argument"},
+        {"name": "argType", "type": "int", "doc": "Argument type. Raw type"},
+        {"name": "argSubType", "type": "int", "doc": "Argument sub type"},
+        {"name": "engType", "type": "int", "doc": "Argument engineering type"},
+        {"name": "units", "type": "string", "doc": "Argument units"},
+        {"name": "prependSize", "type": "int", "doc": "Prepend size of a string"},
+        {"name": "stringTerminator", "type": "string", "doc": "String terminator"},
+        {"name": "littleEndian", "type": "int", "doc": "Little endian flag"},
+        {"name": "functionName", "type": "string", "doc": "Function name for converting the argument"},
+        {"name": "defaultValue", "type": "string", "doc": "Argument deafult value"},
+        {"name": "rangeLow", "type": "string", "doc": "Argument range low value"},
+        {"name": "rangeHigh", "type": "string", "doc": "Argument range high value"}
+    ]
+}
+,
+{
+    "name": "TC_ArgumentAssignment",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines a value assigned to an argument of a TC",
+    "fields" : [
+        {"name": "tcName", "type": "string", "doc": "TC name"},
+        {"name": "argument", "type": "string", "doc": "Argument name"},
+        {"name": "value", "type": "string", "doc": "Argument value"}
+    ]
+}
+,
+{
+    "name": "TC_ParameterOptions",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines the options of a Parameter in terms of; constraints, transmission options, severity level",
+    "fields" : [
+        {"name": "tcName", "type": "string", "doc": "TC name"},
+        {"name": "significance", "type": "int", "doc": "Argument name"},
+        {"name": "significanceReason", "type": "string", "doc": "Argument value"}
+    ]
+}
+,
+{
+    "name": "TC_ParameterOptConstraints",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines the options of a Parameter in terms of; constraints, transmission options, severity level",
+    "fields" : [
+        {"name": "tcName", "type": "string", "doc": "TC name"},
+        {"name": "constraint", "type": "string", "doc": "Constraint name"},
+        {"name": "timeout", "type": "int", "doc": "The timeout of the constraint. A command stays in the queue for that many milliseconds" }
+    ]
+}
+,
+{
+    "name": "TC_ParameterVerifier",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "It defines the stages of veritying a TC",
+    "fields" : [
+        {"name": "tcName", "type": "string", "doc": "TC name"},
+        {"name": "tcStage", "type":
+           { "type" : "enum",
+             "name" : "TcStageEnum",
+             "symbols" : [ "TC_STAGE_TRANSFERRED", "TC_STAGE_SENT", "TC_STAGE_RECEIVED", "TC_STAGE_ACCEPTED", "TC_STAGE_QUEUED", "TC_STAGE_EXECUTION", "TC_STAGE_COMPLETED", "TC_STAGE_FAILED" ] }, "doc": "Any stage is accepted"},
+        {"name": "verifierType", "type": "int", "doc": "Type of verifier"},
+        {"name": "verifierText", "type": "string", "doc": "Text of verifier"},
+        {"name": "startTimeCheckWindow", "type": "int", "doc": "Start time of the window in milliseconds"},
+        {"name": "stopTimeCheckWindow", "type": "int", "doc": "Stop time of the window in milliseconds"},
+        {"name": "checkWindow", "type": "int", "doc": "Check window"},
+        {"name": "onSuccess", "type": "int", "doc": "Defines what happens when the verification returns true"},
+        {"name": "onFail", "type": "int", "doc": "Same like OnSuccess but the event is generated in case the verifier returns false"},
+        {"name": "onTimeout", "type": "int", "doc": "Defines what happens when the verification returns true"}
+    ]
+}
+,
+{
+    "name": "TC_Parameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "A TC Parameter",
+    "fields" : [
+        {"name": "identifier", "type": "int", "doc": "Unique identifier of the parameter in the DB"},
+        {"name": "name", "type": "string", "doc": "Name of the parameter" },
+        {"name": "displayName", "type": "string", "doc": "Name to be displayed" },
+        {"name": "description", "type": "string", "doc": "Description of the parameter" },
+        {"name": "parentName", "type": "string", "doc": "Name of Parent command"},
+        {"name": "subsystem", "type": "string", "doc": "Subsystem name"},
+        {"name": "node", "type": "int", "doc": "Node or subsystem identifier"},
+        {"name": "channel", "type": "int", "doc": "Channel identifier ot tc identifier within the subsystem"},
+        {"name": "lengthBits", "type": "int", "doc": "Length of the field in bits"},
+        {"name": "abstractFlag", "type": "int", "doc": "1 - True, 0 - False"},
+        {"name": "listArgument", "type": {
+              "type": "array", "items": "TC_Argument"
+             }, "doc": "List of Argument of a TC"
+        },
+        {"name": "listArgumentAssignment", "type": {
+              "type": "array", "items": "TC_ArgumentAssignment"
+             }, "doc": "List of Argument assignment of a TC"
+        },
+        {"name": "listOptions", "type": {
+              "type": "array", "items": "TC_ParameterOptions"
+             }, "doc": "List of TC Options"
+        },
+        {"name": "listOptConstraints", "type": {
+              "type": "array", "items": "TC_ParameterOptConstraints"
+             }, "doc": "List of TC Options Constraints"
+        },
+        {"name": "listVerifications", "type": {
+              "type": "array", "items": "TC_ParameterVerifier"
+             }, "doc": "List of TC Verifications"
+        }
+    ]
+}
+,
+{
+    "name": "Limit",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "A Limit. Range of values; [min, max)",
+    "fields" : [
+        {"name": "identifier", "type": "int", "doc": "Unique identifier"},
+        {"name": "status", "type": "int", "doc": "0 - Disabled, 1 - Enabled"},
+        {"name": "counter", "type": "int", "doc": "Number of times of OOL before generating an event or alarm"},
+        {"name": "minValue", "type": "double", "doc": "Mininum value of the range"},
+        {"name": "maxValue", "type": "double", "doc": "Maximum value of the range" }
+    ]
+}
+,
+{
+    "name": "TM_Parameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "A TM Parameter",
+    "fields" : [
+        {"name": "identifier", "type": "int", "doc": "Unique identifier of the parameter in the DB"},
+        {"name": "name", "type": "string", "doc": "Name of the parameter" },
+        {"name": "displayName", "type": "string", "doc": "Name to be displayed" },
+        {"name": "description", "type": "string", "doc": "Description of the parameter" },
+        {"name": "node", "type": "int", "doc": "Node or subsystem identifier"},
+        {"name": "channel", "type": "int", "doc": "Channel identifier or tm point identifier within subsystem"},
+        {"name": "lengthBits", "type": "int", "doc": "Length of the field in bits"},
+        {"name": "valueType", "type": "TmTypeEnum", "doc": "Raw value types"},
+        {"name": "valueSubType", "type": "TmSubTypeEnum", "doc": "Raw value subtypes"},
+        {"name": "engType", "type": "TmEngTypeEnum", "doc": "Field raw value types"},
+        {"name": "units", "type": "string", "doc": "Units"},
+        {"name": "prependSize", "type": "int", "doc": "Size of string or bit of string. It will be located before the string"},
+        {"name": "stringTerminator", "type": "string", "doc": "String terminator. I.e. 0x0" },
+        {"name": "littleEndian", "type": "boolean", "doc": "1 - True, 0 - False"},
+        {"name": "calibrationFunction", "type": "string", "doc": "Calibration function name"},
+        {"name": "lengthFieldId", "type": "int", "doc": "Identifier of the field, which value defines the length of this field"},
+        {"name": "radix", "type": "RadixEnum", "doc": "Radix"},
+        {"name": "listAlarms", "type": ["null", {
+              "type": "array", "items": "Alarm"
+             }], "doc": "List of Alarms related to this TM Parameter"
+        },
+        {"name": "subsystem", "type": "string", "doc": "Subsystem name"}
+    ]
+}
+,
+{
+    "name" : "ProcessedField",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "It describes a field of frame (TM point) that has been already processed",
+    "fields" : [
+        {"name": "index", "type": "int", "doc": "Field index in the frame. Position in the frame"},
+        {"name": "fieldTypeId", "type": "int", "doc": "Field Type identifier"},
+        {"name": "fieldName", "type": "string", "doc": "Duplicated with respect to Field Type Definition"},
+        {"name": "value", "type": "string", "doc": "Value of the field"}
+    ]
+}
+,
+{
+    "name" : "GroupProcessedField",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "It describes a group of processed fields of frame (TM point) that has been already processed. It could contain all fields of a layer",
+    "fields" : [
+        {"name": "id", "type": "int", "doc": "Identifier of the group"},
+        {"name": "fields", "type": {
+                "type": "array", "items": "ProcessedField"
+            }, "doc": "List of field values (TM points values)"
+        },
+        {"name": "oolFlag", "type": "boolean", "doc": "Flag that indicates whether at least one field is OOL"},
+        {"name": "oolFields", "type": ["null", {
+            "type": "array", "items": "int"
+           }], "doc": "List of fields that are in OOL state"
+        }
+    ]
+}
+,
+{
+    "name" : "TM_ProcessedFrame",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "It describes a processed frame. It is generated after processing a raw frame.  It is composed of a list of fields. Each field is composed of fied name, field type id and field value",
+    "fields" : [
+        {"name": "id", "type": "int", "doc": "Identifier of the frame"},
+        {"name": "frameTypeId", "type": "int", "doc": "Frame Type identifier"},
+        {"name": "creationTime", "type": "long", "doc": "Milliseconds since 1 Jan 1970"},
+        {"name": "groups", "type": ["null", {
+            "type": "array", "items": "GroupProcessedField"
+           }], "doc": "List of group of field values (TM points values)"
+        }
+    ]
+}
+,
+{
+    "name": "User",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "An User with a role",
+    "fields" : [
+        {"name": "userId", "type": "int", "doc": "User identifier"},
+        {"name": "userName", "type": "string", "doc": "User name, in the system"},
+        {"name": "password", "type": "string", "doc": "User password, in the system"},
+        {"name": "firstName", "type": "string", "doc": "First name"},
+        {"name": "lastName", "type": "string", "doc": "Last name"},
+        {"name": "emailAddress", "type": "string", "doc": "User email address"},
+        {"name": "missionName", "type": "string", "doc": "Mission name. Mission user is working on"},
+        {"name": "roleId", "type": "int", "doc": "User role id"}
+    ]
+}
+,
+{
+    "name" : "XTCE_ProcessedFrame",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "It describes a processed framem. The XTCE TM Processor will generate it. It will be associated to a container. The fields have to be defined beforehand.",
+    "fields" : [
+        {"name": "id", "type": "int", "doc": "Identifier of the frame"},
+        {"name": "containerName", "type": "string", "doc": "Name of container of raw frame"},
+        {"name": "creationTime", "type": "long", "doc": "Milliseconds since 1 Jan 1970"},
+        {"name": "groups", "type": ["null", {
+            "type": "array", "items": "GroupProcessedField"
+           }], "doc": "List of group of field values (TM points values)"
+        }
+    ]
+}
+,
+{
+    "name" : "TM_FrameField",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "This structure defines a field of a TM Frame",
+    "fields" : [
+        {"name": "frameName", "type": "string", "doc": "Name of the TM Frame this condition belongs to"},
+        {"name": "parameterName", "type": "string", "doc": "Name of the parameter"},
+        {"name": "relativePosition", "type": "int", "doc": "Start position of the parameter in the Container, in bits"},
+        {"name": "sequenceNumber", "type": "int", "doc": "Index of the field inside of the sequence that composes the frame"}
+    ]
+}
+,
+{
+    "name" : "TM_FrameCondition",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "Definition of a Condition that a TM Frame shall meet",
+    "fields" : [
+        {"name": "frameName", "type": "string", "doc": "Name of the TM Frame this condition belongs to"},
+        {"name": "parameterName", "type": "string", "doc": "Name of the parameter"},
+        {"name": "parameterValue", "type": "string", "doc": "Value the parameter must have"}
+    ]
+}
+,
+{
+    "name" : "TM_Frame",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type" : "record",
+    "doc" : "This record contains the definition of a TM Frame (aka Container), at application level protocol",
+    "fields" : [
+        { "name": "name", "type": "string", "doc": "Name of Frame Type"},
+        { "name": "description", "type": "string", "doc": "Description of Frame Type"},
+        { "name": "expectedInterval", "type": "int", "doc": "Expected interval in milliseconds"},
+        { "name": "lengthBits", "type": "int", "doc": "Length of frame in bits. Padding to the right"},
+        { "name": "flag", "type":
+            { "type" : "enum",
+              "name" : "TmFrameFlagEnum",
+              "symbols" : [ "TM_FRAME_ARCHIVE", "TM_FRAME_LITTLE_ENDIAN" ]
+              }, "doc": "Field value subtypes"},
+        { "name": "frameConditions", "type": ["null", {
+             "type": "array", "items": "TM_FrameCondition"
+            }], "doc": "List of TM Frame conditions"
+        },
+        { "name": "tmFields", "type": {
+            "type": "array", "items": "TM_FrameField"
+           }, "doc": "List of TM Field"
+        },
+        {"name": "layerName", "type": "string", "doc": "Layer identifier the frame belongs to"}
+    ]
+}
+,
+{
+  "name": "ListFrameTypes",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains a list of Frame Types",
+  "fields" : [
+    {"name": "listFrameTypes", "type": {
+        "type": "array", "items": "TM_Frame"
+       }, "doc": "List of Frame Types"
+    }
+    ]
+}
+,
+{
+  "name": "ListGroundStations",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains a list of Ground Stations",
+  "fields" : [
+    {"name": "numberGroundStations", "type": "string", "doc": "Number of ground stations in the list"},
+    {"name": "listGroundStations", "type": {
+        "type": "array", "items": "GroundStation"
+       }, "doc": "List of ground stations"
+    }
+    ]
+}
+,
+{
+  "name": "ListKeyValues",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains a list of key-value pairs",
+  "fields" : [
+    {"name": "listKeyValues", "type": {
+        "type": "array", "items": "KeyValue"
+       }, "doc": "List of key-value pairs"
+    }
+    ]
+}
+,
+{
+  "name": "ListParameters",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains a list of parameters",
+  "fields" : [
+        {"name": "listParameters", "type": {
+            "type": "array", "items": "ConfigurationParameter"
+           }, "doc": "List of parameters"
+        }
+    ]
+}
+,
+{
+    "name": "ListLayers",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "List of layers of a mission",
+    "fields" : [
+      {"name": "listLayers", "type": {
+          "type": "array", "items": "Layer"
+         }, "doc": "List of layers that belong to the mission"
+      }
+      ]
+  }
+,
+{
+  "name": "ListPasses",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This record contains the list of passes of a S/C over a ground station a during a period of time",
+  "fields" : [
+    {"name": "spacecraftIdentifier", "type": "string", "doc": "Unique identifier of the spacecraft"},
+    {"name": "groundStationIdentifier", "type": "string", "doc": "Unique identifier of the ground station"},
+    {"name": "numberPasses", "type": "int", "doc": "Number of passes in the list"},
+    {"name": "listPasses", "type": {
+        "type": "array", "items": "Pass"
+       }, "doc": "List of satellite identifiers that belong to the mission"
+    }
+    ]
+}
+,
+{
+  "name": "ListSatellites",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "List of Satellites of a Mission. It includes the Subsystems of each satellite",
+  "fields" : [
+    {"name": "listSatellites", "type": {
+        "type": "array", "items": "Satellite"
+       }, "doc": "List of Satellites and Subsystems"
+    }
+    ]
+}
+,
+{
+    "name": "ListTC_Parameters",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This record contains a List of TC Parameters",
+    "fields" : [
+          {"name": "listTC_Parameters", "type": {
+              "type": "array", "items": "TC_Parameter"
+             }, "doc": "List of TC Parameters"
+          }
+      ]
+  }
+,
+{
+    "name": "ListTM_Parameters",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This record contains a List of TM Parameters",
+    "fields" : [
+          {"name": "listTM_Parameters", "type": {
+              "type": "array", "items": "TM_Parameter"
+             }, "doc": "List of TM Parameters"
+          }
+      ]
+  }
+,
+{
+    "name": "MsgAddGroundStation",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new ground station. It returns a Ground Station object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "groundStation", "type": "GroundStation", "doc": "New Ground Station"}
+    ]
+}
+,
+{
+    "name": "MsgAddMission",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new mission. It returns a Mission object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "mission", "type": "Mission", "doc": "New Mission"}
+    ]
+}
+,
+{
+    "name": "MsgAddMissionLayer",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new communication layers to the mission. A Layer is composed of a set of Parameters",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier"},
+        {"name": "layer", "type": "Layer", "doc": "New Layer object"}
+    ]
+}
+,
+{
+    "name": "MsgAddNode",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new Node to a Subsystem. It returns a Node object",
+    "fields" : [
+        { "name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        { "name": "subsystemId", "type": "int", "doc": "Subsystem identifier"},
+        { "name": "node", "type": "Node", "doc": "New Node object"}
+    ]
+}
+,
+{
+    "name": "MsgAddRawFrame",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message sends a raw frame to the TM Archive",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "timestamp", "type": "long", "doc": "Reception time in milliseconds"},
+        {"name": "data", "type": "bytes", "doc": "Array of bytes"},
+        {"name": "dataLength", "type": "int", "doc": "Number of bytes to be sent"}
+    ]
+}
+,
+{
+    "name": "MsgAddSatellite",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new Satellite to a Mission. It returns a Satellite object",
+    "fields" : [
+        { "name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        { "name": "missionName", "type": "string", "doc": "Mission identifier"},
+        { "name": "satellite", "type": "Satellite", "doc": "New Satellite object"}
+    ]
+}
+,
+{
+    "name": "MsgAddSubsystem",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new Subsystem to a Satellite. It returns a Subsystem object",
+    "fields" : [
+        { "name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        { "name": "satelliteName", "type": "string", "doc": "Satellite identifier"},
+        { "name": "subsystem", "type": "Subsystem", "doc": "New Subsystem object"}
+    ]
+}
+,
+{
+    "name": "MsgAddTcParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new TC Parameter to a node or subsystem",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tcParameter", "type": "TC_Parameter", "doc": "New TC Parameter object"}
+    ]
+}
+,
+{
+    "name": "MsgAddTmParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message adds a new TM Parameter to a node or subsystem",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tmParameter", "type": "TM_Parameter", "doc": "New TM Parameter object"}
+    ]
+}
+,
+{
+  "name": "MsgCheckLicence",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This message checks the validity of the licence of a component. It returns a message to the sender with true or false",
+  "fields" : [
+    {"name": "componentId", "type": "string", "doc": "Component identifier. It requests to check the licence"},
+    {"name": "componentSignature", "type": "string", "doc": "Signature of the component" },
+    {"name": "componentFunction", "type": { "type": "array", "items":"string" }, "doc": "List of functions to check whether they are licenced" }
+    ]
+}
+,
+{
+  "name": "MsgCheckLicenceResponse",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "Response to a check validity message (of the licence of a component). It returns true or false",
+  "fields" : [
+        {"name": "componentId", "type": "string", "doc": "Component identifier. It requests to check the licence"},
+        {"name": "componentSignature", "type": "string", "doc": "Signature of the component" },
+        {"name": "componentFunctions", "type": { "type": "array", "items":"string" }, "doc": "List of functions to check whether they are licenced" },
+        {"name": "licenceFunction", "type": { "type": "array", "items":"string" }, "doc": "List of return values per function" }
+    ]
+}
+,
+{
+    "name": "MsgConnectGroundStation",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message connects to a ground station. It returns the connection id as a String(pair key-value)",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "groundStationId", "type": "int", "doc": "Ground Station identifier"}
+    ]
+}
+,
+{
+    "name": "MsgDisconnectGroundStation",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message disconnect from ground station",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "connectionId", "type": "string", "doc": "Ground Station connection identifier"}
+    ]
+}
+,
+{
+    "name": "MsgEndModuleExecution",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message notifies the FDS (and module) the module has finished. It reports the final status of the module execution.",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token" },
+        {"name": "module_name", "type": "string", "doc": "FDS module to run" },
+        {"name": "execution_id", "type": "string", "doc": "FDS execution id. It identifies the external process" },
+        {"name": "errorCode", "type": "int", "doc": "Error code" },
+        {"name": "errorMessage", "type": "string", "doc": "Error message" }
+    ]
+}
+,
+{
+    "name": "MsgFds",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message requests the FDS (from an external module) to perform an action. It can be anything; store data, retrieve data, etc. The format is TBD",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token" },
+        {"name": "module_name", "type": "string", "doc": "FDS module to run" },
+        {"name": "execution_id", "type": "string", "doc": "FDS execution id. It identifies the external process" },
+        {"name": "parameters", "type": "ListKeyValues", "doc": "List of parameters in the form of key=value" }
+    ]
+}
+,
+{
+    "name": "MsgGetDefaultMissionLayers",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message returns the Default Communication Layers to be used by the missions. It will return a list of Default Layers",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"}
+    ]
+}
+,
+{
+    "name": "MsgGetFrameTypes",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message returns the list of Frame Types associated with a layer",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "layerName", "type": "string", "doc": "Layer name"}
+    ]
+}
+,
+{
+    "name": "MsgGetGroundStation",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves one or several ground stations depending on input criteria. It returns a list of Ground Station objects",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "groundStationName", "type": "string", "doc": "Ground Station name"},
+        {"name": "groundStationCode", "type": "string", "doc": "Short code of the station. I.e. SVB" }
+    ]
+}
+,
+{
+    "name": "MsgGetLayerParameters",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message returns the set of parameters of a Communication Layer. It returns a List of Parameters",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier"},
+        {"name": "layerName", "type": "string", "doc": "Layer identifier"}
+    ]
+}
+,
+{
+    "name": "MsgGetMission",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves the current mission. It returns a Mission object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier"}
+    ]
+}
+,
+{
+    "name": "MsgGetMissionLayers",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message returns the Communication Layers the mission will use for communicating with spacecrafts. Layers will be ordered from bottom to top. It will return a list of key-value pairs; name, sequence_number",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier"}
+    ]
+}
+,
+{
+    "name": "MsgGetNode",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves a Node(s) of a Satellite. If Node Id is null, it will return all the Nodes. It returns a List of Nodes object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "subsystemId", "type": "int", "doc": "Unique identifier of the Subsystem"},
+        {"name": "nodeId", "type": "int", "doc": "Unique identifier of the Node"}
+    ]
+}
+,
+{
+    "name": "MsgGetPasses",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves the list of passes over a ground station during a period of time. It will return the list of passes",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "userRole", "type": "int", "doc": "User role. Values: ROLE_READ_ONLY - 0 ROLE_NORMAL - 1 ROLE_ADMINISTRATOR - 2"},
+        {"name": "missionId", "type": "int", "doc": "Mission identifier"},
+        {"name": "satelliteId", "type": "int", "doc": "Satellite identifier"},
+        {"name": "groundStationId", "type": "int", "doc": "Ground Station identifier"},
+        {"name": "startTime", "type": "string", "doc": "Start time of time period. Format: YYYY-MM-DDTHH:mm:SS"},
+        {"name": "stopTime", "type": "string", "doc": "Stop time of time period. Format: YYYY-MM-DDTHH:mm:SS"}
+    ]
+}
+,
+{
+    "name": "MsgGetSatellite",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves a Satellite(s) of a Mission. If Satellite Name and Code are null, it will return all the Satellites of the Mission. It returns a List of Satellite object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier satellite belongs to"},
+        {"name": "satelliteName", "type": "string", "doc": "Unique identifier of the satellite in the mission"},
+        {"name": "satelliteCode", "type": "string", "doc": "Satellite code"}
+    ]
+}
+,
+{
+    "name": "MsgGetStatus",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves the status of all components or systems",
+    "fields" : [
+         {"name": "componentId", "type": "string", "doc": "Target component or system"}
+    ]
+}
+,
+{
+    "name": "MsgGetStatusResponse",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message returns the status of a component",
+    "fields" : [
+        {"name": "componentId", "type": "string", "doc": "target component or system"},
+        {"name": "ComponentStatusEnum", "type":
+            { "type": "enum", "name": "IntComponentStatusEnum",
+              "symbols": ["MODE_NONE", "STARTED", "NOT_RUNNING", "RUNNING", "COMPLETE", "FAILED"] },
+              "doc": "Enum value describing the status of the component"
+        }
+    ]
+}
+,
+{
+    "name": "MsgGetSubsystem",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves a Subsystem(s) of a Satellite. If Subsystem Id is null, it will return all the Subsystems. It returns a List of Subsystems object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "satelliteName", "type": "string", "doc": "Unique identifier of the Satellite in the mission"},
+        {"name": "subsystemName", "type": "string", "doc": "Unique identifier of the Subsystem"}
+    ]
+}
+,
+{
+    "name": "MsgGetTcParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves a TC Parameter. If the TC Parameter Id is null, it will use the Node and Channel parameters. If the Channel Id is null, it will return all TC Parameters of the Node.    It returns a List of TC Parameter object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tcParameterId", "type": "int", "doc": "TC Parameter identifier"},
+        {"name": "nodeId", "type": "int", "doc": "Node or subsystem identifier"},
+        {"name": "channelId", "type": "int", "doc": "Channel identifier or tc point identifier within subsystem"}
+    ]
+}
+,
+{
+    "name": "MsgGetTmParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message retrieves a TM Parameter. If the TM Parameter Id is null, it will use the Node and Channel parameters. If the Channel Id is null, it will return all TM Parameters of the Node. It returns a List of TM Parameter object",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tmParameterId", "type": "int", "doc": "TM Parameter identifier"},
+        {"name": "nodeId", "type": "int", "doc": "Node or subsystem identifier"},
+        {"name": "channelId", "type": "int", "doc": "Channel identifier or tm point identifier within subsystem"}
+    ]
+}
+,
+{
+    "name": "MsgHeader",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message describes the header of a message",
+    "fields" : [
+        { "name": "messageId", "type": "int", "doc": "Unique identifier of the message" },
+        { "name": "correlationId", "type": "int", "doc": "Correlation identifier. Identifier of the originator message (messageId). So, this reply is related to it" },
+        { "name": "service", "type": "int", "doc": "Service id" },
+        { "name": "URIfrom", "type": "string", "doc": "URI of message source. System or component" },
+        { "name": "URIto", "type": "string", "doc": "URI of message target" },
+        { "name": "generationTime", "type": "string", "doc": "Generation timestamp" },
+        { "name": "expirationTime", "type": [ "null", "int" ], "doc": "Expiration time of the message (in seconds since 1970)" },
+        { "name": "sequenceId", "type": [ "null", "int" ], "doc": "Identifier of the sequence (optional)" },
+        { "name": "positionId", "type": "int", "doc": "Uniquely identifies a message in a sequence. Sequential order" },
+        { "name": "sequenceSize", "type": "int", "doc": "Number of messages in the sequence" }
+    ]
+}
+,
+{
+    "name": "MsgImportScDatabase",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message serves for importing a S/C database contained in an Excel spreadsheet, CSV file or XTCE XML file. It returns zero is successful or an error code otherwise. File will be transmitted in chunks of 8 Kb each",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token" },
+        {"name": "fileName", "type": "string", "doc": "Only the filename" },
+        {"name": "fileType", "type": "int", "doc": "0 - Excel, 1 - CSV, 2 - XTCE XML" },
+        {"name": "fileSize", "type": "int", "doc": "Size of file in bytes" },
+        {"name": "numberOfChunks", "type": "int", "doc": "Number of chunks of 8 Kb" },
+        {"name": "chunkNumber", "type": "int", "doc": "Index of the chunk; 0 .. numberOfChunks - 1" },
+        {"name": "buffer", "type": "string", "doc": "Chunk data. 8 Kb" }
+    ]
+}
+,
+{
+    "name": "MsgLogin",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message requests a login of an user ",
+    "fields" : [
+        {"name": "userName", "type": "string", "doc": "User name"},
+        {"name": "hashPassword", "type": "string", "doc": "hash of password"}
+    ]
+}
+,
+{
+    "name": "MsgLoginResponse",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message is the response to a login request. It will return the user's role",
+    "fields" : [
+        {"name": "userData", "type": "User", "doc": "User details"},
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"}
+    ]
+}
+,
+{
+    "name": "MsgLogout",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message requests a logout of an user ",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "userId", "type": "string", "doc": "Unique user identifier"},
+        {"name": "userName", "type": "string", "doc": "User name"}
+    ]
+}
+,
+{
+    "name": "MsgProcessRawFrame",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message requests a TM Processor to process a raw frame and to generate a ProcessedFrame",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier"},
+        {"name": "containerName", "type": "string", "doc": "Unique name of the container. It can be a layer name, subsystem name, etc."},
+        {"name": "rawFrame", "type": "bytes", "doc": "Array of bytes contain the raw frame"}
+    ]
+}
+,
+{
+    "name": "MsgPublishEvent",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message shall be sent by component that want to publish an event",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "event", "type": "Event", "doc": "The Event"}
+    ]
+}
+,
+{
+    "name": "MsgRegisterUserOld",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message register a new user of the CubeGS ",
+    "fields" : [
+        {"name": "firstName", "type": "string", "doc": "First name"},
+        {"name": "lastName", "type": "string", "doc": "Last name"},
+        {"name": "userName", "type": "string", "doc": "User name"},
+        {"name": "hashPassword", "type": "string", "doc": "Hash of password"},
+        {"name": "emailAddress", "type": "string", "doc": "Email address of the user"},
+        {"name": "missionName", "type": "string", "doc": "Mission name"},
+        {"name": "missionDescription", "type": "string", "doc": "Mission description"},
+        {"name": "missionCountry", "type": "string", "doc": "Country"},
+        {"name": "missionOwner", "type": "string", "doc": "Company or person that owns the mission"}
+    ]
+},
+{
+    "name": "MsgRegisterUser",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message register a new user of the CubeGS and creates a mission for him. It returns an error code",
+    "fields" : [
+        {"name": "user", "type": "User", "doc": "Administrator User data"},
+        {"name": "mission", "type": "Mission", "doc": "New mission data"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveGroundStation",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a new ground station",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "groundStationName", "type": "string", "doc": "Ground Station identifier"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveMissionLayer",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a Communication Layers of the mission.",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier"},
+        {"name": "layerName", "type": "string", "doc": "Unique name of the Layer"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveMission",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a mission",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveNode",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a Node from a Subsystem. It Node Id is null, it will remove all of them",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "subsystemId", "type": "int", "doc": "Unique identifier of the Subsystem"},
+        {"name": "nodeId", "type": "int", "doc": "Unique identifier of the Node"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveSatellite",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a Satellite from a Mission. It Satellite Id is null, it will remove all of them",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "missionName", "type": "string", "doc": "Mission identifier satellite belongs to"},
+        {"name": "satelliteName", "type": "string", "doc": "Unique identifier of the satellite in the mission"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveSubsystem",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a Subsystem from a Satellite. It Subsystem Id is null, it will remove all of them",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "satelliteName", "type": "string", "doc": "Unique identifier of the Satellite in the mission"},
+        {"name": "subsystemName", "type": "string", "doc": "Unique identifier of the Subsystem"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveTcParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a TC Parameter. If the TC Parameter Id is null, it will use the Node and Channel parameters.",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tcParameterId", "type": "int", "doc": "TC Parameter identifier"},
+        {"name": "nodeId", "type": "int", "doc": "Node or subsystem identifier"},
+        {"name": "channelId", "type": "int", "doc": "Channel identifier or tm point identifier within subsystem"}
+    ]
+}
+,
+{
+    "name": "MsgRemoveTmParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a TM Parameter. If the TM Parameter Id is null, it will use the Node and Channel parameters.",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tmParameterId", "type": "int", "doc": "TM Parameter identifier"},
+        {"name": "nodeId", "type": "int", "doc": "Node or subsystem identifier"},
+        {"name": "channelId", "type": "int", "doc": "Channel identifier or tm point identifier within subsystem"}
+    ]
+}
+,
+{
+    "name": "MsgReturnData",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message contains a generic response to any message. It contains; code - return code. 0 means no   error message - error message ",
+    "fields" : [
+        {"name": "errorCode", "type": "int", "doc": "Error code"},
+        {"name": "errorMessage", "type": "string", "doc": "Error message"}
+    ]
+}
+,
+{
+    "name": "MsgSendFrameGroundStation",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message uploads a frame to a S/C using a connection",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "connectionId", "type": "string", "doc": "Ground Station connection identifier"},
+        {"name": "data", "type": "bytes", "doc": "Array of bytes"},
+        {"name": "dataLength", "type": "int", "doc": "Number of bytes to be sent"}
+    ]
+}
+,
+{
+    "name": "MsgShutdown",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message commands a component to shutdown itself",
+    "fields" : [
+    ]
+}
+,
+{
+    "name": "MsgStartModuleExecution",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message requests the FDS (and module) to execute a module. It will return the final status as a message in the Pub/Sub bus",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token" },
+        {"name": "module_name", "type": "string", "doc": "FDS module to run" },
+        {"name": "execution_id", "type": "string", "doc": "FDS execution id. It identifies the external process" },
+        {"name": "parameters", "type": "ListKeyValues", "doc": "List of input parameters" }
+    ]
+}
+,
+{
+    "name": "MsgStartup",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message commands a component to start up itself",
+    "fields" : [
+        {"name": "message", "type": "string", "doc": "Message from component"}
+    ]
+}
+,
+{
+    "name": "MsgUpdateGroundStation",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message removes a new ground station",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token" },
+        {"name": "groundStation", "type": "GroundStation", "doc": "Updated Ground Station" }
+    ]
+}
+,
+{
+    "name": "MsgUpdateMission",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message updates an existing mission. It returns an error code",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "mission", "type": "Mission", "doc": "Updated Mission"}
+    ]
+}
+,
+{
+    "name": "MsgUpdateNode",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message updates the Node data of a Subsystem.",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "subsystemId", "type": "int", "doc": "Subsystem identifier Node belongs to"},
+        {"name": "node", "type": "Node", "doc": "New Node data"}
+    ]
+}
+,
+{
+    "name": "MsgUpdateSatellite",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message updates the Satellite data of a Mission.",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "satellite", "type": "Satellite", "doc": "New Satellite data"}
+    ]
+}
+,
+{
+    "name": "MsgUpdateSubsystem",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message updates the Subsystem data of a Satellite.",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "subsystem", "type": "Subsystem", "doc": "New Subsystem data"}
+    ]
+}
+,
+{
+    "name": "MsgUpdateTcParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message updates a TC Parameter of a node or subsystem",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tcParameter", "type": "TC_Parameter", "doc": "New data of Tc Parameter object"}
+    ]
+}
+,
+{
+    "name": "MsgUpdateTmParameter",
+    "namespace": "com.incomplete.cubegs.common.avro.messages",
+    "type": "record",
+    "doc": "This message updates a TM Parameter of a node or subsystem",
+    "fields" : [
+        {"name": "authorizationToken", "type": "string", "doc": "Authorization token"},
+        {"name": "tmParameter", "type": "TM_Parameter", "doc": "New data of TM Parameter object"}
+    ]
+}
+,
+{
+  "name": "AvroNone",
+  "namespace": "com.incomplete.cubegs.common.avro.messages",
+  "type": "record",
+  "doc": "This message indicates there is no more messages or data. It contains no comma at the end",
+  "fields" : [
+    {"name": "none_field", "type": "int", "doc": "End of include files"}
+  ]
+}
+]

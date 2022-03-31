@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="MainWUI">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/resources" source-path="/resources"/>
+                                
+        
+        
+        <dependent-module archiveName="GsCommon.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GsCommon/GsCommon">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+        <dependent-module archiveName="GsCommon.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/GsCommon/GsCommon.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                
+        
+        
+        <property name="java-output-path" value="/MainWUI/build/classes"/>
+                        
+        
+        <property name="context-root" value="MainWUI"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>

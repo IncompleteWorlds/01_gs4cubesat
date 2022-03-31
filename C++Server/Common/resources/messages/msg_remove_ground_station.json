@@ -1,0 +1,14 @@
+{
+    "name":       "MsgRemoveGroundStation",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message removes a new ground station",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "groundStationName",   "type": "string",   "doc": "Ground Station identifier"}
+
+    ]
+}
+

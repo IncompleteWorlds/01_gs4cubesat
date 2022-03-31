@@ -1,0 +1,14 @@
+{
+    "name":       "MsgGetMissionLayers",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message returns the Communication Layers the mission will use for communicating with spacecrafts. \
+Layers will be ordered from bottom to top. It will return a list of key-value pairs; name, sequence_number",
+
+    "fields" : [
+
+        {"name": "authorizationToken",    "type": "string",   "doc": "Authorization token"},
+        {"name": "missionName",           "type": "string",   "doc": "Mission identifier"}
+
+    ]
+}

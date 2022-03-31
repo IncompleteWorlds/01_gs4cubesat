@@ -1,0 +1,13 @@
+{
+    "name":       "MsgUpdateTcParameter",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message updates a TC Parameter of a node or subsystem",
+
+    "fields" : [
+
+        {"name": "authorizationToken",    "type": "string",            "doc": "Authorization token"},
+        {"name": "tcParameter",           "type": "TC_Parameter",      "doc": "New data of Tc Parameter object"}
+
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name":       "MsgProcessRawFrame",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message requests a TM Processor to process a raw frame and to generate a ProcessedFrame",
+
+    "fields" : [
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "missionName",         "type": "string",   "doc": "Mission identifier"},
+        {"name": "containerName",       "type": "string",   "doc": "Unique name of the container. It can be a layer name, subsystem name, etc."},
+        {"name": "rawFrame",            "type": "bytes",    "doc": "Array of bytes contain the raw frame"}
+    ]
+}
+
