@@ -1,0 +1,13 @@
+{
+    "name":       "MsgAddGroundStation",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message adds a new ground station. It returns a Ground Station object",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",         "doc": "Authorization token"},
+        {"name": "groundStation",       "type": "GroundStation",  "doc": "New Ground Station"}
+
+    ]
+}

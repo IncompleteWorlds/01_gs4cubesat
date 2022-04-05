@@ -1,0 +1,14 @@
+{
+    "name":       "MsgAddRawFrame",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message sends a raw frame to the TM Archive",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "timestamp",           "type": "long",     "doc": "Reception time in milliseconds"},
+        {"name": "data",                "type": "bytes",    "doc": "Array of bytes"},
+        {"name": "dataLength",          "type": "int",      "doc": "Number of bytes to be sent"}
+    ]
+}

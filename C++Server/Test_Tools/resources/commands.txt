@@ -1,0 +1,9 @@
+Start M&C
+Start GS_Manager
+
+
+
+./send_message.py  513 resources/data_msg_get_ground_station.json   ../Common/resources/messages/msg_get_ground_station.json    none  127.0.0.1    9020
+
+
+./send_message.py  501 resources/data_msg_connect_ground_station.json   ../Common/resources/messages/msg_connect_ground_station.json  none   127.0.0.1    9020

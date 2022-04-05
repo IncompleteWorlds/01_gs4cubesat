@@ -1,0 +1,50 @@
+{
+    "module_name" : "FDS",
+    "Comment" : "
+CubeGS. An online Ground Segment for Cubesats and Small Sats
+(c) 2016 Incomplete Worlds
+
+This is the FDS configuration file.
+
+The file is divided into group of key values pairs
+
+QPID IF
+qpid_broker_address_port - Qpid broker ip address and port
+queue_name - Name of the MCS queue. It will receive messages on this queue
+queues - List of Topics or Queues to connect to
+
+THRIFT IF
+url - URL of the service
+port - Port of the service
+m_c_url - URL of the M&C service. Used for registering and unregistering
+m_c_port - Port of the M&C  service
+
+external_if_type - Values; Qpid, REST (not yet implemented)
+log_file - Log file name
+",
+
+    "General" :
+    {
+        "log_file" : "fds_log.txt",
+        "external_if_type" : "Qpid"
+    },
+
+    "Qpid" :
+    {
+        "qpid_broker_address_port" : "127.0.0.1:5672",
+        "queue_name" : "fds" ,
+        "queues" : [ "mcs", "tools", "fds_wui" ]
+    },
+
+    "Thrift" :
+    {
+        "default_timeout" : "15000",
+        "url" : "localhost",
+        "port" : "9010",
+
+        "m_c_url" : "localhost",
+        "m_c_port" : "9000"
+    }
+
+}
+

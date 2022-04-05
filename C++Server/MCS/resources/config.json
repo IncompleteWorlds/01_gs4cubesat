@@ -1,0 +1,41 @@
+{
+    "module_name" : "MCS",
+    "Comment" : "
+CubeGS. An online Ground Segment for Cubesats and Small Sats
+(c) 2016 Incomplete Worlds
+
+This is the MCS configuration file.
+
+The file is divided into group of key values pairs
+
+ZEROMQ
+server_address - Address to receive and reply REQ-REP messages
+publisher_address - Address to be used for publishing events
+subscription_names - Name of components to subscribe to. They shall be unique
+subscriptions_addresses - Addresses to subscribe to
+receive_msg_timeout - Timeout in milliseconds before an EAGAIN error
+
+GENERAL
+module_name - Name of this component
+log_file - Log file name
+",
+
+    "General" :
+    {
+        "module_name"   : "mcs",
+        "log_file"      : "resources/log4cpp.properties",
+        "mission_id"    : "1"
+    },
+
+    "ZMQ" :
+    {
+        "server_address"            : "tcp://127.0.0.1:9030",
+        "publisher_address"         : "tcp://127.0.0.1:9000",
+        "subscriber_address"        : "tcp://127.0.0.1:9001",
+        "receive_msg_timeout"       : "10000",
+
+        "gs_manager_server_address" : "tcp://127.0.0.1:9020"
+
+    }
+}
+

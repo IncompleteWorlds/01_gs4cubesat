@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="Common" Version="10.0.0" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="resources">
+    <VirtualDirectory Name="data_model">
+      <File Name="resources/data_model/temp.json"/>
+      <File Name="resources/data_model/ListSatellites.json"/>
+      <File Name="resources/data_model/Common.json"/>
+      <File Name="resources/data_model/ConfigurationParameter.json"/>
+      <File Name="resources/data_model/TM_Frame.json"/>
+      <File Name="resources/data_model/ListParameters.json"/>
+      <File Name="resources/data_model/KeyValue.json"/>
+      <File Name="resources/data_model/Event.json"/>
+      <File Name="resources/data_model/Satellite.json"/>
+      <File Name="resources/data_model/ListGroundStations.json"/>
+      <File Name="resources/data_model/GroundStation.json"/>
+      <File Name="resources/data_model/Mission.json"/>
+      <File Name="resources/data_model/Pass.json"/>
+      <File Name="resources/data_model/ProcessedFrame.json"/>
+      <File Name="resources/data_model/ListPasses.json"/>
+      <File Name="resources/data_model/ListKeyValues.json"/>
+      <File Name="resources/data_model/Layer.json"/>
+      <File Name="resources/data_model/User.json"/>
+      <File Name="resources/data_model/ListFrameTypes.json"/>
+      <File Name="resources/data_model/TM_Parameter.json"/>
+      <File Name="resources/data_model/TC_Parameter.json"/>
+      <File Name="resources/data_model/Node.json"/>
+      <File Name="resources/data_model/Subsystem.json"/>
+      <File Name="resources/data_model/compile.sh"/>
+      <File Name="resources/data_model/ListTC_Parameters.json"/>
+      <File Name="resources/data_model/ListTM_Parameters.json"/>
+      <File Name="resources/data_model/TC_Parameter.json_backup"/>
+      <File Name="resources/data_model/TM_Parameter.json_backup"/>
+      <File Name="resources/data_model/Derived_TM_Parameter.json"/>
+      <File Name="resources/data_model/Calibration.json"/>
+      <File Name="resources/data_model/Algorithm.json"/>
+      <File Name="resources/data_model/Alarm.json"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="messages">
+      <File Name="resources/messages/msg_get_default_mission_layers.json"/>
+      <File Name="resources/messages/msg_update_mission.json"/>
+      <File Name="resources/messages/msg_register_user.json"/>
+      <File Name="resources/messages/msg_get_status.json"/>
+      <File Name="resources/messages/msg_login.json"/>
+      <File Name="resources/messages/msg_get_mission.json"/>
+      <File Name="resources/messages/msg_get_satellite.json"/>
+      <File Name="resources/messages/msg_return_data.json"/>
+      <File Name="resources/messages/msg_add_ground_station.json"/>
+      <File Name="resources/messages/msg_get_ground_station.json"/>
+      <File Name="resources/messages/msg_check_licence_response.json"/>
+      <File Name="resources/messages/msg_add_raw_frame.json"/>
+      <File Name="resources/messages/msg_get_mission_layers.json"/>
+      <File Name="resources/messages/msg_login_response.json"/>
+      <File Name="resources/messages/msg_shutdown.json"/>
+      <File Name="resources/messages/msg_logout.json"/>
+      <File Name="resources/messages/msg_disconnect_ground_station.json"/>
+      <File Name="resources/messages/msg_start_up.json"/>
+      <File Name="resources/messages/msg_publish_event.json"/>
+      <File Name="resources/messages/msg_header.json"/>
+      <File Name="resources/messages/msg_get_passes.json"/>
+      <File Name="resources/messages/msg_connect_ground_station.json"/>
+      <File Name="resources/messages/msg_send_frame_ground_station.json"/>
+      <File Name="resources/messages/msg_get_status_response.json"/>
+      <File Name="resources/messages/msg_update_ground_station.json"/>
+      <File Name="resources/messages/msg_remove_ground_station.json"/>
+      <File Name="resources/messages/msg_check_licence.json"/>
+      <File Name="resources/messages/msg_get_frame_types.json"/>
+      <File Name="resources/messages/msg_import_sc_database.json"/>
+      <File Name="resources/messages/msg_add_mission.json"/>
+      <File Name="resources/messages/compile.sh"/>
+      <File Name="resources/messages/msg_add_mission_layer.json"/>
+      <File Name="resources/messages/msg_add_node.json"/>
+      <File Name="resources/messages/msg_add_satellite.json"/>
+      <File Name="resources/messages/msg_add_subsystem.json"/>
+      <File Name="resources/messages/msg_add_tc_parameter.json"/>
+      <File Name="resources/messages/msg_add_tm_parameter.json"/>
+      <File Name="resources/messages/msg_get_layer.json"/>
+      <File Name="resources/messages/msg_get_node.json"/>
+      <File Name="resources/messages/msg_get_subsystem.json"/>
+      <File Name="resources/messages/msg_get_tc_parameter.json"/>
+      <File Name="resources/messages/msg_get_tm_parameter.json"/>
+      <File Name="resources/messages/msg_remove_layer.json"/>
+      <File Name="resources/messages/msg_remove_mission.json"/>
+      <File Name="resources/messages/msg_remove_node.json"/>
+      <File Name="resources/messages/msg_remove_satellite.json"/>
+      <File Name="resources/messages/msg_remove_subsystem.json"/>
+      <File Name="resources/messages/msg_remove_tc_parameter.json"/>
+      <File Name="resources/messages/msg_remove_tm_parameter.json"/>
+      <File Name="resources/messages/msg_update_node.json"/>
+      <File Name="resources/messages/msg_update_satellite.json"/>
+      <File Name="resources/messages/msg_update_subsystem.json"/>
+      <File Name="resources/messages/msg_update_tc_parameter.json"/>
+      <File Name="resources/messages/msg_update_tm_parameter.json"/>
+    </VirtualDirectory>
+    <File Name="resources/AvroTypes.avro"/>
+    <File Name="resources/last_none.json"/>
+    <File Name="resources/compile.sh"/>
+    <File Name="resources/cubegs_install.sh"/>
+    <File Name="resources/cubegs_start.sh"/>
+    <File Name="resources/cubegs_stop.sh"/>
+    <File Name="resources/rename_avro_json.sh"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="src/ConfigurationManager.cpp"/>
+    <File Name="src/json11.cpp"/>
+    <File Name="src/Crc.cpp"/>
+    <File Name="src/CommonUtils.cpp"/>
+    <File Name="src/TimeUtils.cpp"/>
+    <File Name="src/ServerWorkerSub.cpp"/>
+    <File Name="src/ServerMessage.cpp"/>
+    <File Name="src/MessageUtils.cpp"/>
+    <File Name="src/ServerWorker.cpp"/>
+    <File Name="src/LogManager.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="include/TimeUtils.h"/>
+    <File Name="include/RoleEnum.h"/>
+    <File Name="include/AvroTypes.h"/>
+    <File Name="include/BaseMessage.h"/>
+    <File Name="include/ConfigurationManager.h"/>
+    <File Name="include/IModuleManager.h"/>
+    <File Name="include/ModuleStatusEnum.h"/>
+    <File Name="include/ServerMessage.h"/>
+    <File Name="include/Crc.h"/>
+    <File Name="include/CommonTypes.h"/>
+    <File Name="include/OperationCodeEnum.h"/>
+    <File Name="include/FieldTypeEnum.h"/>
+    <File Name="include/MessageUtils.h"/>
+    <File Name="include/Constants.h"/>
+    <File Name="include/ServerWorker.h"/>
+    <File Name="include/EventTypeEnum.h"/>
+    <File Name="include/ServerWorkerSub.h"/>
+    <File Name="include/json11.hpp"/>
+    <File Name="include/IMessageProcessor.h"/>
+    <File Name="include/GSException.h"/>
+    <File Name="include/RadixEnum.h"/>
+    <File Name="include/TmTypeEnum.h"/>
+    <File Name="include/MagnitudeTypeEnum.h"/>
+    <File Name="include/LogManager.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-std=c++11;-Wall;-fexceptions;-m64;-fPIC" C_Options="-g" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="include"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="./bin/Debug/lib$(ProjectName).so" IntermediateDirectory="./obj/Debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild>
+        <Command Enabled="yes">cd ./resources;  ./compile.sh</Command>
+      </PreBuild>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-std=c++11;-Wall;-fexceptions;-m64;-fPIC" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="include"/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="./bin/Release/lib$(ProjectName).so" IntermediateDirectory="./obj/Release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild>
+        <Command Enabled="yes">cd ./resources;  ./compile.sh</Command>
+      </PreBuild>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

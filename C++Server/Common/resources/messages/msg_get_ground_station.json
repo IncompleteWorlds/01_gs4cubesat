@@ -1,0 +1,13 @@
+{
+    "name":       "MsgGetGroundStation",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message retrieves one or several ground stations depending on input criteria. It returns a list of Ground Station objects",
+
+    "fields" : [
+
+        {"name": "authorizationToken",   "type": "string",   "doc": "Authorization token"},
+        {"name": "groundStationName",    "type": "string",   "doc": "Ground Station name"},
+        {"name": "groundStationCode",    "type": "string",   "doc": "Short code of the station. I.e. SVB" }
+    ]
+}

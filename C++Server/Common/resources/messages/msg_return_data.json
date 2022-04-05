@@ -1,0 +1,13 @@
+{
+    "name":       "MsgReturnData",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message contains a generic response to any message. It contains; code - return code. 0 means no   error message - error message ",
+
+    "fields" : [
+
+        {"name": "errorCode",      "type": "int",      "doc": "Error code"},
+        {"name": "errorMessage",   "type": "string",   "doc": "Error message"}
+
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name":       "MsgGetSatellite",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message retrieves a Satellite(s) of a Mission. \
+If Satellite Name and Code are null, it will return all the Satellites of the Mission. It returns a List of Satellite object",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "missionName",         "type": "string",   "doc": "Mission identifier satellite belongs to"},
+        {"name": "satelliteName",       "type": "string",   "doc": "Unique identifier of the satellite in the mission"},
+        {"name": "satelliteCode",       "type": "string",   "doc": "Satellite code"}
+        
+    ]
+}

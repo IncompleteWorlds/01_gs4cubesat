@@ -1,0 +1,20 @@
+
+{
+  "name":       "Satellite",
+  "namespace":  "com.incomplete.cubegs.common.avro.messages",
+  "type":       "record",
+  "doc":        "This record contains the Satellite parameters",
+  "fields" : [
+
+    {"name": "name",             "type": "string",  "doc": "Name of the satellite" },
+    {"name": "missionName",      "type": "string",  "doc": "Name of the mission" },
+    {"name": "description",      "type": "string",  "doc": "Description of the satellite" },
+    {"name": "code",             "type": "string",  "doc": "Short code of the satellite" },
+    {"name": "launchDate",       "type": "string",  "doc": "Launch date. Format: YYYY-MM-DDTHH:mm:SS" },
+    {"name": "listSubsystems",   "type": ["null", {
+        "type": "array", "items":"Subsystem" 
+        }], "doc": "List of subsystems of the satellite"
+    }
+
+    ]
+}

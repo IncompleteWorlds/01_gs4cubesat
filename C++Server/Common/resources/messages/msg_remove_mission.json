@@ -1,0 +1,14 @@
+{
+    "name":       "MsgRemoveMission",
+    "namespace":  "com.incomplete.cubegs.common.avro.messages",
+    "type":       "record",
+    "doc":        "This message removes a mission",
+
+    "fields" : [
+
+        {"name": "authorizationToken",  "type": "string",   "doc": "Authorization token"},
+        {"name": "missionName",         "type": "string",   "doc": "Mission identifier"}
+
+    ]
+}
+
