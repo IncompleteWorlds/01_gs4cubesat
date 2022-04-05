@@ -1,2 +1,0 @@
-./obj/Debug/src_ServerMessage.cpp.o ./obj/Debug/src_LogManager.cpp.o ./obj/Debug/src_MessageUtils.cpp.o ./obj/Debug/src_ServerWorkerTransferNng.cpp.o ./obj/Debug/src_TimeUtils.cpp.o ./obj/Debug/src_ServerWorkerSubZmq.cpp.o ./obj/Debug/src_ServerWorkerZmq.cpp.o ./obj/Debug/src_CommonUtils.cpp.o ./obj/Debug/src_json11.cpp.o
-./obj/Debug/src_Crc.cpp.o ./obj/Debug/src_ConfigurationManager.cpp.o ./obj/Debug/src_ServerWorkerNng.cpp.o
